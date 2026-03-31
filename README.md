@@ -1,2 +1,0 @@
-# EscapeGame3D
-
