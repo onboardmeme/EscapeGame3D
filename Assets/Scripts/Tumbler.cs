@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using State = TumblerState;
 
@@ -25,9 +26,11 @@ public class Tumbler : MonoBehaviour {
   private Quaternion targetRot;
   private float t;
 
+  private Coroutine tumblingCoroutine;
+
   private void Start() {
     State = State.IDLE;
-
+    tumblingCoroutine = null;
     number = 0;
 
     allowedTransitions = new() {
@@ -64,6 +67,16 @@ public class Tumbler : MonoBehaviour {
     }
   }
 
+  private IEnumerator Tumble() {
+    while (t < 1) {
+      t += 1 * Time.deltaTime;
+      transform.rotation = Quaternion.Lerp(curRot, targetRot, t);
+      yield return new WaitForEndOfFrame();
+    }
+    transform.rotation = targetRot;
+    ChangeState(State.IDLE);
+  }
+
   //public int GetNumber() {
   //  return number + 1;
   //}
@@ -84,11 +97,17 @@ public class Tumbler : MonoBehaviour {
     curRot = transform.rotation;
     targetRot = curRot * Quaternion.Euler(Vector3.up * (360 / numberOfSides));
     t = 0;
+    SoundManager.Play(SoundType.TUMBLE);
+    tumblingCoroutine = StartCoroutine(Tumble());
   }
   private void StateEnter_TumblingDown() {
     curRot = transform.rotation;
     targetRot = curRot * Quaternion.Euler(Vector3.down * (360 / numberOfSides));
     t = 0;
+    SoundManager.Play(SoundType.TUMBLE);
+    //StopCoroutine(tumblingCoroutine);
+    //StopAllCoroutines();
+    StartCoroutine(Tumble());
   }
   private void StateEnter_Disabled() {
     // used enter method
@@ -98,20 +117,8 @@ public class Tumbler : MonoBehaviour {
     // idle enter method
   }
   private void StateStay_TumblingUp() {
-    t += 1 * Time.deltaTime;
-    transform.rotation = Quaternion.Lerp(curRot, targetRot, t);
-    if (t >= 1) {
-      transform.rotation = targetRot;
-      ChangeState(State.IDLE);
-    }
   }
   private void StateStay_TumblingDown() {
-    t += 1 * Time.deltaTime;
-    transform.rotation = Quaternion.Lerp(curRot, targetRot, t);
-    if (t >= 1) {
-      transform.rotation = targetRot;
-      ChangeState(State.IDLE);
-    }
   }
   private void StateStay_Disabled() {
     // used enter method
