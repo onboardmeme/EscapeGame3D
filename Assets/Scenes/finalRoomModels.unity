@@ -309,6 +309,7 @@ GameObject:
   - component: {fileID: 21791029}
   - component: {fileID: 21791028}
   - component: {fileID: 21791027}
+  - component: {fileID: 21791031}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -394,7 +395,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9fa74f97-d0b3-42a8-8ba1-8261ef733bfc
+    name: UM_OperatedMesh_7e7cf396-40fc-486a-953f-afffa14e3379
     skinnedMesh: 0
     sharedMesh: {fileID: 413573284}
     buidVersion:
@@ -407,7 +408,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9fa74f97-d0b3-42a8-8ba1-8261ef733bfc
+  sourceMeshRendererGUID: 7e7cf396-40fc-486a-953f-afffa14e3379
   guid: 9d1e5aef-c119-4d0e-a3a2-173b149d31d6
   localOptions:
     RecalculateTangents: 0
@@ -444,6 +445,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &21791031
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21791026}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2282839, y: 1.2161633, z: 3.191956}
+  m_Center: {x: -4.5906434, y: 0.60808164, z: -1.595978}
 --- !u!43 &27616365
 Mesh:
   m_ObjectHideFlags: 0
@@ -838,6 +860,7 @@ GameObject:
   - component: {fileID: 50691625}
   - component: {fileID: 50691624}
   - component: {fileID: 50691623}
+  - component: {fileID: 50691627}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -923,7 +946,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_05c66ecc-44ea-4020-88f0-09bf124c3755
+    name: UM_OperatedMesh_8bf0f31b-2767-409f-8dd5-5bcd26a7b40c
     skinnedMesh: 0
     sharedMesh: {fileID: 991924911}
     buidVersion:
@@ -936,7 +959,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 05c66ecc-44ea-4020-88f0-09bf124c3755
+  sourceMeshRendererGUID: 8bf0f31b-2767-409f-8dd5-5bcd26a7b40c
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -973,6 +996,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990276595}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &50691627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50691622}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854023, y: 0.1490084, z: 0.08854024}
+  m_Center: {x: -0.00000023841858, y: 0.0745042, z: 0}
 --- !u!114 &50979679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1137,7 +1181,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d4a7e20f-b009-45c6-8522-7b65e2f4f559
+    name: UM_OperatedMesh_fd882c64-413a-4e49-a7e2-e126126b90e9
     skinnedMesh: 0
     sharedMesh: {fileID: 950287085}
     buidVersion:
@@ -1150,7 +1194,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d4a7e20f-b009-45c6-8522-7b65e2f4f559
+  sourceMeshRendererGUID: fd882c64-413a-4e49-a7e2-e126126b90e9
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -1350,6 +1394,81 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &186013802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186013803}
+  - component: {fileID: 186013805}
+  - component: {fileID: 186013804}
+  m_Layer: 5
+  m_Name: Item2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &186013803
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186013802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1257059513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 125, y: -35}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &186013804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186013802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &186013805
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186013802}
+  m_CullTransparentMesh: 1
 --- !u!114 &216282886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,6 +1763,7 @@ GameObject:
   - component: {fileID: 244514947}
   - component: {fileID: 244514946}
   - component: {fileID: 244514945}
+  - component: {fileID: 244514949}
   m_Layer: 0
   m_Name: Cylinder (7)
   m_TagString: Untagged
@@ -1729,7 +1849,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d0ed2f3a-2c0b-4421-a543-ce934da37829
+    name: UM_OperatedMesh_dc448e19-3371-4c1c-869f-f4286087ea7a
     skinnedMesh: 0
     sharedMesh: {fileID: 1332095742}
     buidVersion:
@@ -1742,7 +1862,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d0ed2f3a-2c0b-4421-a543-ce934da37829
+  sourceMeshRendererGUID: dc448e19-3371-4c1c-869f-f4286087ea7a
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -1779,6 +1899,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!65 &244514949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244514944}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0428054, y: 2.5548325, z: 2.0428052}
+  m_Center: {x: 0.00000071525557, y: 1.2774162, z: 0.000000059604645}
+--- !u!1 &248736322 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3118052240628258283, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+  m_PrefabInstance: {fileID: 340145553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &248736327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248736322}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.43533468, y: 2.6517484, z: 2.1193395}
+  m_Center: {x: 0.21766734, y: 1.3258742, z: 1.0596697}
 --- !u!114 &279551179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2512,6 +2679,7 @@ GameObject:
   - component: {fileID: 328042902}
   - component: {fileID: 328042901}
   - component: {fileID: 328042900}
+  - component: {fileID: 328042903}
   m_Layer: 0
   m_Name: RightWall
   m_TagString: Untagged
@@ -2612,7 +2780,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2987e21a-6f08-475e-aec1-85ac39c2d857
+    name: UM_OperatedMesh_5df6df57-db44-4f85-afc2-fb81e4a7e7fd
     skinnedMesh: 0
     sharedMesh: {fileID: 1568274030}
     buidVersion:
@@ -2625,7 +2793,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2987e21a-6f08-475e-aec1-85ac39c2d857
+  sourceMeshRendererGUID: 5df6df57-db44-4f85-afc2-fb81e4a7e7fd
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -2647,6 +2815,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &328042903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328042898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15013933, y: 3.400383, z: 7.6228724}
+  m_Center: {x: -0.075069666, y: 1.7001915, z: -6.7106805}
 --- !u!1 &329533709
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,6 +2848,7 @@ GameObject:
   - component: {fileID: 329533713}
   - component: {fileID: 329533712}
   - component: {fileID: 329533711}
+  - component: {fileID: 329533714}
   m_Layer: 0
   m_Name: Cylinder (6)
   m_TagString: Untagged
@@ -2759,7 +2949,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c79d9b4c-0b1c-4a89-af1f-50086d4856c2
+    name: UM_OperatedMesh_062ad3c4-f5fc-45d9-89db-3886da57a3ef
     skinnedMesh: 0
     sharedMesh: {fileID: 1302857532}
     buidVersion:
@@ -2772,7 +2962,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c79d9b4c-0b1c-4a89-af1f-50086d4856c2
+  sourceMeshRendererGUID: 062ad3c4-f5fc-45d9-89db-3886da57a3ef
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -2794,6 +2984,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &329533714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329533709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0732654, y: 1.9495494, z: 1.0732654}
+  m_Center: {x: 0.000000029802326, y: 0.9747766, z: -0.00000035762787}
 --- !u!1 &332949891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2806,6 +3017,7 @@ GameObject:
   - component: {fileID: 332949894}
   - component: {fileID: 332949893}
   - component: {fileID: 332949892}
+  - component: {fileID: 332949896}
   m_Layer: 0
   m_Name: Cylinder (8)
   m_TagString: Untagged
@@ -2891,7 +3103,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_efc2a7bb-45fa-4f38-9026-4670033883c9
+    name: UM_OperatedMesh_977cd17c-16ab-4882-976a-0dfaa4f4a317
     skinnedMesh: 0
     sharedMesh: {fileID: 470771118}
     buidVersion:
@@ -2904,7 +3116,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: efc2a7bb-45fa-4f38-9026-4670033883c9
+  sourceMeshRendererGUID: 977cd17c-16ab-4882-976a-0dfaa4f4a317
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -2941,6 +3153,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &332949896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332949891}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603355, y: 0.3934162, z: 0.07990579}
+  m_Center: {x: -0.07353712, y: 0.0402429, z: 0.0000000037252903}
 --- !u!1001 &340145553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2949,6 +3182,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3871698082081896023, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1694206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3871698082081896023, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.977
+      objectReference: {fileID: 0}
     - target: {fileID: 5954034669605779935, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
       propertyPath: m_Name
       value: greyboxShip
@@ -2996,7 +3237,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3118052240628258283, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 248736327}
   m_SourcePrefab: {fileID: 100100000, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
 --- !u!114 &341138887
 MonoBehaviour:
@@ -3381,7 +3625,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2d89ec1d-a115-403e-bbc0-5584e1445cb9
+    name: UM_OperatedMesh_d356e0a7-93ac-48bd-b031-1d0609138113
     skinnedMesh: 0
     sharedMesh: {fileID: 554243370}
     buidVersion:
@@ -3394,7 +3638,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2d89ec1d-a115-403e-bbc0-5584e1445cb9
+  sourceMeshRendererGUID: d356e0a7-93ac-48bd-b031-1d0609138113
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -3594,6 +3838,81 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &385265625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 385265626}
+  - component: {fileID: 385265628}
+  - component: {fileID: 385265627}
+  m_Layer: 5
+  m_Name: Item4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &385265626
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385265625}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1257059513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 305, y: -35}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &385265627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385265625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &385265628
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385265625}
+  m_CullTransparentMesh: 1
 --- !u!114 &390149629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3658,6 +3977,7 @@ GameObject:
   - component: {fileID: 396811902}
   - component: {fileID: 396811901}
   - component: {fileID: 396811900}
+  - component: {fileID: 396811903}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -3758,7 +4078,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c465aa48-d137-4618-9246-2b754044f2c2
+    name: UM_OperatedMesh_c56e8a15-9603-4af5-9d70-300c2e5cf7bd
     skinnedMesh: 0
     sharedMesh: {fileID: 933799367}
     buidVersion:
@@ -3771,7 +4091,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c465aa48-d137-4618-9246-2b754044f2c2
+  sourceMeshRendererGUID: c56e8a15-9603-4af5-9d70-300c2e5cf7bd
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -3793,6 +4113,102 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &396811903
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396811898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854024, y: 0.1490084, z: 0.08854025}
+  m_Center: {x: 0, y: 0.0745042, z: 0}
+--- !u!1 &406490960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406490961}
+  - component: {fileID: 406490963}
+  - component: {fileID: 406490962}
+  m_Layer: 5
+  m_Name: Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &406490961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406490960}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 998261855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &406490962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406490960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &406490963
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406490960}
+  m_CullTransparentMesh: 1
 --- !u!1 &407574008
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,6 +4221,7 @@ GameObject:
   - component: {fileID: 407574011}
   - component: {fileID: 407574010}
   - component: {fileID: 407574009}
+  - component: {fileID: 407574013}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -3890,7 +4307,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c2b30c7d-2626-43a1-b5b9-26bda8edef8d
+    name: UM_OperatedMesh_c5ef548f-1032-4cb0-92d5-80dbfa394203
     skinnedMesh: 0
     sharedMesh: {fileID: 327895270}
     buidVersion:
@@ -3903,7 +4320,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c2b30c7d-2626-43a1-b5b9-26bda8edef8d
+  sourceMeshRendererGUID: c5ef548f-1032-4cb0-92d5-80dbfa394203
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -3940,6 +4357,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1650089986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &407574013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407574008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854023, y: 0.1490084, z: 0.08854024}
+  m_Center: {x: -0.00000023841858, y: 0.0745042, z: 0}
 --- !u!43 &413573284
 Mesh:
   m_ObjectHideFlags: 0
@@ -4182,6 +4620,7 @@ GameObject:
   - component: {fileID: 442671915}
   - component: {fileID: 442671914}
   - component: {fileID: 442671913}
+  - component: {fileID: 442671916}
   m_Layer: 0
   m_Name: Cylinder (16)
   m_TagString: Untagged
@@ -4282,7 +4721,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_03b34a0c-7689-4cfe-ab4a-661c810b51c7
+    name: UM_OperatedMesh_687cf486-a04b-487d-a409-4141baf55775
     skinnedMesh: 0
     sharedMesh: {fileID: 1563414574}
     buidVersion:
@@ -4295,7 +4734,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 03b34a0c-7689-4cfe-ab4a-661c810b51c7
+  sourceMeshRendererGUID: 687cf486-a04b-487d-a409-4141baf55775
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -4317,6 +4756,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &442671916
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 442671911}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603367, y: 0.3934164, z: 0.07990584}
+  m_Center: {x: -0.07353714, y: 0.04024296, z: -0.00000002607703}
 --- !u!1 &463538561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4414,7 +4874,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7fe564c1-f94f-43f5-8467-ed95e960321e
+    name: UM_OperatedMesh_ad70b0c7-99e3-4019-aedc-56e0b7c1e25b
     skinnedMesh: 0
     sharedMesh: {fileID: 772559187}
     buidVersion:
@@ -4427,7 +4887,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7fe564c1-f94f-43f5-8467-ed95e960321e
+  sourceMeshRendererGUID: ad70b0c7-99e3-4019-aedc-56e0b7c1e25b
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -4576,7 +5036,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ae6a7db6-3c57-4654-b1f7-41fd7c16a46f
+    name: UM_OperatedMesh_825f7dc7-9125-406c-a5ca-28af69c16a31
     skinnedMesh: 0
     sharedMesh: {fileID: 1965948067}
     buidVersion:
@@ -4589,7 +5049,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ae6a7db6-3c57-4654-b1f7-41fd7c16a46f
+  sourceMeshRendererGUID: 825f7dc7-9125-406c-a5ca-28af69c16a31
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -4927,7 +5387,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_25e2c4f8-2ba5-412d-9f10-6d2c01d4073c
+    name: UM_OperatedMesh_0b7fbb87-e354-4d97-acd2-08c48dc37f93
     skinnedMesh: 0
     sharedMesh: {fileID: 577497930}
     buidVersion:
@@ -4940,7 +5400,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 25e2c4f8-2ba5-412d-9f10-6d2c01d4073c
+  sourceMeshRendererGUID: 0b7fbb87-e354-4d97-acd2-08c48dc37f93
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -5140,6 +5600,81 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &521046998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521046999}
+  - component: {fileID: 521047001}
+  - component: {fileID: 521047000}
+  m_Layer: 5
+  m_Name: Item3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &521046999
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521046998}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1257059513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 215, y: -35}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &521047000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521046998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &521047001
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521046998}
+  m_CullTransparentMesh: 1
 --- !u!1 &522372832
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,6 +5687,7 @@ GameObject:
   - component: {fileID: 522372835}
   - component: {fileID: 522372834}
   - component: {fileID: 522372833}
+  - component: {fileID: 522372837}
   m_Layer: 0
   m_Name: Cylinder (6)
   m_TagString: Untagged
@@ -5237,7 +5773,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9369d54a-d45e-433d-b210-5352372593fe
+    name: UM_OperatedMesh_0e765caf-9019-4415-a366-d7e4b3d03a9b
     skinnedMesh: 0
     sharedMesh: {fileID: 2020074175}
     buidVersion:
@@ -5250,7 +5786,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9369d54a-d45e-433d-b210-5352372593fe
+  sourceMeshRendererGUID: 0e765caf-9019-4415-a366-d7e4b3d03a9b
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -5287,6 +5823,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &522372837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522372832}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0428047, y: 2.5548315, z: 2.042805}
+  m_Center: {x: 0, y: 1.2774159, z: 0.00000005960464}
 --- !u!43 &527664677
 Mesh:
   m_ObjectHideFlags: 0
@@ -5669,6 +6226,81 @@ MonoBehaviour:
     IndexVersion: 41
     OptimizedTopology: 0
     TransformVersion: 35
+--- !u!1 &567694856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 567694857}
+  - component: {fileID: 567694859}
+  - component: {fileID: 567694858}
+  m_Layer: 5
+  m_Name: Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &567694857
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567694856}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 998261855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &567694858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567694856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &567694859
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567694856}
+  m_CullTransparentMesh: 1
 --- !u!1 &569783951
 GameObject:
   m_ObjectHideFlags: 0
@@ -5766,7 +6398,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2240aabe-50bf-4e07-a51f-69da0c0ff123
+    name: UM_OperatedMesh_583e9bc4-43f5-4016-9c5f-13f91d81bd62
     skinnedMesh: 0
     sharedMesh: {fileID: 1471987851}
     buidVersion:
@@ -5779,7 +6411,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2240aabe-50bf-4e07-a51f-69da0c0ff123
+  sourceMeshRendererGUID: 583e9bc4-43f5-4016-9c5f-13f91d81bd62
   guid: 489731a0-f8c8-47ec-82ca-e993858a5bca
   localOptions:
     RecalculateTangents: 0
@@ -6058,6 +6690,7 @@ GameObject:
   - component: {fileID: 616004334}
   - component: {fileID: 616004333}
   - component: {fileID: 616004332}
+  - component: {fileID: 616004335}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -6158,7 +6791,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2d048d9d-fa55-4b1f-92ba-1e1dfb8e09f8
+    name: UM_OperatedMesh_39eab3a9-1530-4445-8c7e-d7dd73923345
     skinnedMesh: 0
     sharedMesh: {fileID: 789997799}
     buidVersion:
@@ -6171,7 +6804,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2d048d9d-fa55-4b1f-92ba-1e1dfb8e09f8
+  sourceMeshRendererGUID: 39eab3a9-1530-4445-8c7e-d7dd73923345
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -6193,6 +6826,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &616004335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616004330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854024, y: 0.1490084, z: 0.08854025}
+  m_Center: {x: 0, y: 0.0745042, z: 0}
 --- !u!1 &634800124
 GameObject:
   m_ObjectHideFlags: 0
@@ -6205,6 +6859,7 @@ GameObject:
   - component: {fileID: 634800127}
   - component: {fileID: 634800126}
   - component: {fileID: 634800125}
+  - component: {fileID: 634800129}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -6290,7 +6945,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f9ead8d5-55c2-4552-9b0e-09e48975e60c
+    name: UM_OperatedMesh_2beb5bf5-bd27-4a9e-a488-cf6dbc97c1d0
     skinnedMesh: 0
     sharedMesh: {fileID: 1616119768}
     buidVersion:
@@ -6303,7 +6958,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f9ead8d5-55c2-4552-9b0e-09e48975e60c
+  sourceMeshRendererGUID: 2beb5bf5-bd27-4a9e-a488-cf6dbc97c1d0
   guid: 251e2f35-9cc5-4797-ad80-9a3d38974924
   localOptions:
     RecalculateTangents: 0
@@ -6340,6 +6995,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 13.291, z: 0}
+--- !u!65 &634800129
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634800124}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5074363, y: 0.63217515, z: 0.4980476}
+  m_Center: {x: -0.004694313, y: 0.31608754, z: 0}
 --- !u!114 &661128745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6504,7 +7180,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e828fe4e-f128-46f7-9298-fd9a53fa6539
+    name: UM_OperatedMesh_3f933366-3f36-40c6-85e6-5f0d60d2007d
     skinnedMesh: 0
     sharedMesh: {fileID: 1826651896}
     buidVersion:
@@ -6517,7 +7193,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e828fe4e-f128-46f7-9298-fd9a53fa6539
+  sourceMeshRendererGUID: 3f933366-3f36-40c6-85e6-5f0d60d2007d
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -6651,7 +7327,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e53434cf-f9a9-4bb9-a8dc-63176250b735
+    name: UM_OperatedMesh_cbbc0d9c-7f4f-4b81-bc43-6423c2d30891
     skinnedMesh: 0
     sharedMesh: {fileID: 513506189}
     buidVersion:
@@ -6664,7 +7340,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e53434cf-f9a9-4bb9-a8dc-63176250b735
+  sourceMeshRendererGUID: cbbc0d9c-7f4f-4b81-bc43-6423c2d30891
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -7154,7 +7830,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c0f4a05c-11e8-4ea1-bac8-92175c4cba6e
+    name: UM_OperatedMesh_91560e1a-6405-40e0-ab09-476cdf1f0756
     skinnedMesh: 0
     sharedMesh: {fileID: 836660995}
     buidVersion:
@@ -7167,7 +7843,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c0f4a05c-11e8-4ea1-bac8-92175c4cba6e
+  sourceMeshRendererGUID: 91560e1a-6405-40e0-ab09-476cdf1f0756
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -7201,6 +7877,7 @@ GameObject:
   - component: {fileID: 812170164}
   - component: {fileID: 812170163}
   - component: {fileID: 812170162}
+  - component: {fileID: 812170165}
   m_Layer: 0
   m_Name: Cylinder (12)
   m_TagString: Untagged
@@ -7302,7 +7979,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8cc3306d-4036-4770-9dfe-d1d6adc62124
+    name: UM_OperatedMesh_ce4cae16-c42f-4335-ac21-354b11962fd3
     skinnedMesh: 0
     sharedMesh: {fileID: 1206955584}
     buidVersion:
@@ -7315,7 +7992,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8cc3306d-4036-4770-9dfe-d1d6adc62124
+  sourceMeshRendererGUID: ce4cae16-c42f-4335-ac21-354b11962fd3
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -7337,6 +8014,102 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &812170165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812170160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.042805, y: 2.5548317, z: 2.0428052}
+  m_Center: {x: -0.00000047683716, y: 1.2774159, z: 0.000000059604645}
+--- !u!1 &823817483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 823817484}
+  - component: {fileID: 823817486}
+  - component: {fileID: 823817485}
+  m_Layer: 5
+  m_Name: Item5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &823817484
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823817483}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1257059513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 395, y: -35}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &823817485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823817483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &823817486
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823817483}
+  m_CullTransparentMesh: 1
 --- !u!43 &836660995
 Mesh:
   m_ObjectHideFlags: 0
@@ -7909,6 +8682,7 @@ GameObject:
   - component: {fileID: 862504271}
   - component: {fileID: 862504270}
   - component: {fileID: 862504269}
+  - component: {fileID: 862504272}
   m_Layer: 0
   m_Name: Cylinder (6)
   m_TagString: Untagged
@@ -8009,7 +8783,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6bcbbbd6-64e8-451e-869a-e24e5bc9b20b
+    name: UM_OperatedMesh_bfa0e275-d784-4e2f-92ee-ea2d58740a3e
     skinnedMesh: 0
     sharedMesh: {fileID: 216834648}
     buidVersion:
@@ -8022,7 +8796,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6bcbbbd6-64e8-451e-869a-e24e5bc9b20b
+  sourceMeshRendererGUID: bfa0e275-d784-4e2f-92ee-ea2d58740a3e
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -8044,6 +8818,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &862504272
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862504267}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0732652, y: 1.9495491, z: 1.0732652}
+  m_Center: {x: 0.00000002980232, y: 0.9747743, z: -0.00000047683716}
 --- !u!114 &906511413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8108,6 +8903,7 @@ GameObject:
   - component: {fileID: 912624385}
   - component: {fileID: 912624384}
   - component: {fileID: 912624383}
+  - component: {fileID: 912624386}
   m_Layer: 0
   m_Name: Cylinder (14)
   m_TagString: Untagged
@@ -8208,7 +9004,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_87859551-f7e0-424a-9089-cefee1bfeedb
+    name: UM_OperatedMesh_063170b8-0a5d-43cd-bbb5-152cbd1e88b4
     skinnedMesh: 0
     sharedMesh: {fileID: 367563455}
     buidVersion:
@@ -8221,7 +9017,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 87859551-f7e0-424a-9089-cefee1bfeedb
+  sourceMeshRendererGUID: 063170b8-0a5d-43cd-bbb5-152cbd1e88b4
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -8243,6 +9039,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &912624386
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912624381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603367, y: 0.3934164, z: 0.07990584}
+  m_Center: {x: -0.07353714, y: 0.04024296, z: -0.00000005587935}
 --- !u!43 &922138342
 Mesh:
   m_ObjectHideFlags: 0
@@ -8737,7 +9554,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e0f2352f-cf0f-4730-b2a2-684e6d0a7fc3
+    name: UM_OperatedMesh_0b5e56ad-44c7-4e66-9be9-4a05e713c252
     skinnedMesh: 0
     sharedMesh: {fileID: 1476189541}
     buidVersion:
@@ -8750,7 +9567,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e0f2352f-cf0f-4730-b2a2-684e6d0a7fc3
+  sourceMeshRendererGUID: 0b5e56ad-44c7-4e66-9be9-4a05e713c252
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -9166,6 +9983,7 @@ GameObject:
   - component: {fileID: 976474566}
   - component: {fileID: 976474565}
   - component: {fileID: 976474564}
+  - component: {fileID: 976474567}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -9266,7 +10084,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e5f67343-4f54-4664-93b6-7617d3fe35df
+    name: UM_OperatedMesh_28ec684d-55dc-46a0-8596-682a4d79c91a
     skinnedMesh: 0
     sharedMesh: {fileID: 1949255528}
     buidVersion:
@@ -9279,7 +10097,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e5f67343-4f54-4664-93b6-7617d3fe35df
+  sourceMeshRendererGUID: 28ec684d-55dc-46a0-8596-682a4d79c91a
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -9301,6 +10119,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &976474567
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976474562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854024, y: 0.1490084, z: 0.08854025}
+  m_Center: {x: 0, y: 0.0745042, z: 0}
 --- !u!1 &990276594
 GameObject:
   m_ObjectHideFlags: 0
@@ -9523,6 +10362,71 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &998261854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 998261855}
+  - component: {fileID: 998261856}
+  m_Layer: 5
+  m_Name: Hud Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &998261855
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998261854}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1997280737}
+  - {fileID: 1694067042}
+  - {fileID: 1200807392}
+  - {fileID: 406490961}
+  - {fileID: 567694857}
+  m_Father: {fileID: 1781340885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -167.55, y: -10}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &998261856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 998261854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 1
+  m_CellSize: {x: 80, y: 80}
+  m_Spacing: {x: 10, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!43 &1010811816
 Mesh:
   m_ObjectHideFlags: 0
@@ -10054,7 +10958,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9a0ce9b0-719e-48c6-894e-a214f66e701c
+    name: UM_OperatedMesh_f807fd82-cfac-4203-b1d1-03f789dd90cc
     skinnedMesh: 0
     sharedMesh: {fileID: 1241893701}
     buidVersion:
@@ -10067,7 +10971,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9a0ce9b0-719e-48c6-894e-a214f66e701c
+  sourceMeshRendererGUID: f807fd82-cfac-4203-b1d1-03f789dd90cc
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -10394,7 +11298,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ed426a7e-5a45-46e2-bcde-e5959e79bf6e
+    name: UM_OperatedMesh_1ff55420-3fba-4300-90cb-c8ea40447d22
     skinnedMesh: 0
     sharedMesh: {fileID: 1036154093}
     buidVersion:
@@ -10407,7 +11311,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ed426a7e-5a45-46e2-bcde-e5959e79bf6e
+  sourceMeshRendererGUID: 1ff55420-3fba-4300-90cb-c8ea40447d22
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -10541,7 +11445,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d48e46d6-83e3-4f17-a125-b78926f48737
+    name: UM_OperatedMesh_2b81e1c5-09a2-4126-8b14-c2bbec17e1f6
     skinnedMesh: 0
     sharedMesh: {fileID: 373191065}
     buidVersion:
@@ -10554,7 +11458,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d48e46d6-83e3-4f17-a125-b78926f48737
+  sourceMeshRendererGUID: 2b81e1c5-09a2-4126-8b14-c2bbec17e1f6
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -10792,6 +11696,7 @@ GameObject:
   - component: {fileID: 1165201571}
   - component: {fileID: 1165201570}
   - component: {fileID: 1165201569}
+  - component: {fileID: 1165201572}
   m_Layer: 0
   m_Name: Cylinder (13)
   m_TagString: Untagged
@@ -10892,7 +11797,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5ced5a4e-39bd-48d1-88b5-5fe8735fac92
+    name: UM_OperatedMesh_3080e8c9-e3c7-408b-b568-4e3164473bf2
     skinnedMesh: 0
     sharedMesh: {fileID: 2000394167}
     buidVersion:
@@ -10905,7 +11810,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5ced5a4e-39bd-48d1-88b5-5fe8735fac92
+  sourceMeshRendererGUID: 3080e8c9-e3c7-408b-b568-4e3164473bf2
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -10927,6 +11832,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1165201572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165201567}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603366, y: 0.3934164, z: 0.07990587}
+  m_Center: {x: -0.07353713, y: 0.04024296, z: -0.00000000766483}
 --- !u!1 &1173521601
 GameObject:
   m_ObjectHideFlags: 0
@@ -10939,6 +11865,7 @@ GameObject:
   - component: {fileID: 1173521605}
   - component: {fileID: 1173521604}
   - component: {fileID: 1173521603}
+  - component: {fileID: 1173521606}
   m_Layer: 0
   m_Name: Cylinder (8)
   m_TagString: Untagged
@@ -11039,7 +11966,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_160cad28-0b75-480d-887e-10ef2c88180e
+    name: UM_OperatedMesh_beee6efb-62df-4d24-a8db-8cae8f54f511
     skinnedMesh: 0
     sharedMesh: {fileID: 1215232676}
     buidVersion:
@@ -11052,7 +11979,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 160cad28-0b75-480d-887e-10ef2c88180e
+  sourceMeshRendererGUID: beee6efb-62df-4d24-a8db-8cae8f54f511
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -11074,6 +12001,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1173521606
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1173521601}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0732652, y: 1.9495491, z: 1.0732652}
+  m_Center: {x: 0.00000002980232, y: 0.97477525, z: 0}
 --- !u!43 &1176276610
 Mesh:
   m_ObjectHideFlags: 0
@@ -11542,7 +12490,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0fefc942-0ddb-4c2a-ab2a-053b289c9778
+    name: UM_OperatedMesh_9de7a03e-6019-427c-88ac-f2fc66ed97fa
     skinnedMesh: 0
     sharedMesh: {fileID: 2145969857}
     buidVersion:
@@ -11555,7 +12503,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0fefc942-0ddb-4c2a-ab2a-053b289c9778
+  sourceMeshRendererGUID: 9de7a03e-6019-427c-88ac-f2fc66ed97fa
   guid: b7ce6434-1b02-4ce3-b94c-5b6a09a1d790
   localOptions:
     RecalculateTangents: 0
@@ -11577,6 +12525,81 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!1 &1200807391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1200807392}
+  - component: {fileID: 1200807394}
+  - component: {fileID: 1200807393}
+  m_Layer: 5
+  m_Name: Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1200807392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200807391}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 998261855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1200807393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200807391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1200807394
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200807391}
+  m_CullTransparentMesh: 1
 --- !u!43 &1206955584
 Mesh:
   m_ObjectHideFlags: 0
@@ -12453,7 +13476,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9f8823ce-467d-4925-9d0c-99932c243071
+    name: UM_OperatedMesh_b28e91f7-a934-4d30-88f4-1da344834a99
     skinnedMesh: 0
     sharedMesh: {fileID: 1176276610}
     buidVersion:
@@ -12466,7 +13489,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9f8823ce-467d-4925-9d0c-99932c243071
+  sourceMeshRendererGUID: b28e91f7-a934-4d30-88f4-1da344834a99
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -13200,6 +14223,71 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1257059512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1257059513}
+  - component: {fileID: 1257059514}
+  m_Layer: 5
+  m_Name: Hud Items
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1257059513
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257059512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1766250031}
+  - {fileID: 186013803}
+  - {fileID: 521046999}
+  - {fileID: 385265626}
+  - {fileID: 823817484}
+  m_Father: {fileID: 1781340885}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -162.55, y: -14.8}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1257059514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257059512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a8695521f0d02e499659fee002a26c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 0
+  m_StartAxis: 1
+  m_CellSize: {x: 70, y: 70}
+  m_Spacing: {x: 20, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!43 &1264535830
 Mesh:
   m_ObjectHideFlags: 0
@@ -13416,6 +14504,7 @@ GameObject:
   - component: {fileID: 1300856572}
   - component: {fileID: 1300856571}
   - component: {fileID: 1300856570}
+  - component: {fileID: 1300856573}
   m_Layer: 0
   m_Name: LeftWall
   m_TagString: Untagged
@@ -13516,7 +14605,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fe4df2c7-fc75-462b-b2a7-1763fcd1976d
+    name: UM_OperatedMesh_7770f621-9711-4d94-b14e-9aa30a42fa8a
     skinnedMesh: 0
     sharedMesh: {fileID: 1607547809}
     buidVersion:
@@ -13529,7 +14618,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fe4df2c7-fc75-462b-b2a7-1763fcd1976d
+  sourceMeshRendererGUID: 7770f621-9711-4d94-b14e-9aa30a42fa8a
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -13551,6 +14640,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1300856573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300856568}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15013933, y: 3.400383, z: 7.6228724}
+  m_Center: {x: -0.075069666, y: 1.7001915, z: -6.7106805}
 --- !u!43 &1302857532
 Mesh:
   m_ObjectHideFlags: 0
@@ -14032,6 +15142,7 @@ GameObject:
   - component: {fileID: 1341862719}
   - component: {fileID: 1341862718}
   - component: {fileID: 1341862717}
+  - component: {fileID: 1341862720}
   m_Layer: 0
   m_Name: BackWall
   m_TagString: Untagged
@@ -14132,7 +15243,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8c69c85a-f9f8-4923-bea8-d140b46f41bc
+    name: UM_OperatedMesh_4f3abc87-c578-411d-b51a-78f495d954e1
     skinnedMesh: 0
     sharedMesh: {fileID: 842506293}
     buidVersion:
@@ -14145,7 +15256,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8c69c85a-f9f8-4923-bea8-d140b46f41bc
+  sourceMeshRendererGUID: 4f3abc87-c578-411d-b51a-78f495d954e1
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -14167,6 +15278,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1341862720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341862715}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15013936, y: 3.400383, z: 7.6228743}
+  m_Center: {x: -0.07506968, y: 1.7001915, z: -6.710684}
 --- !u!1 &1351110855
 GameObject:
   m_ObjectHideFlags: 0
@@ -14179,6 +15311,7 @@ GameObject:
   - component: {fileID: 1351110858}
   - component: {fileID: 1351110857}
   - component: {fileID: 1351110856}
+  - component: {fileID: 1351110860}
   m_Layer: 0
   m_Name: Cylinder (9)
   m_TagString: Untagged
@@ -14264,7 +15397,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_690f9828-365e-4ab3-a341-e9b6341b37ca
+    name: UM_OperatedMesh_400d189c-d106-4ad3-b3bd-39175f8d2827
     skinnedMesh: 0
     sharedMesh: {fileID: 159979427}
     buidVersion:
@@ -14277,7 +15410,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 690f9828-365e-4ab3-a341-e9b6341b37ca
+  sourceMeshRendererGUID: 400d189c-d106-4ad3-b3bd-39175f8d2827
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -14314,6 +15447,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -82.905}
+--- !u!65 &1351110860
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351110855}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.1968964, y: 0.39341623, z: 0.0799058}
+  m_Center: {x: -0.058968574, y: 0.040242918, z: -0.000000026855238}
 --- !u!43 &1358529406
 Mesh:
   m_ObjectHideFlags: 0
@@ -14793,7 +15947,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_49c87267-9ecc-436c-81f4-439fa35c23d3
+    name: UM_OperatedMesh_0e07a19c-d053-47d3-b114-93a65d6f93a9
     skinnedMesh: 0
     sharedMesh: {fileID: 1264535830}
     buidVersion:
@@ -14806,7 +15960,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 49c87267-9ecc-436c-81f4-439fa35c23d3
+  sourceMeshRendererGUID: 0e07a19c-d053-47d3-b114-93a65d6f93a9
   guid: 7c0a79cf-00b8-4efa-87f3-ff5873a15659
   localOptions:
     RecalculateTangents: 0
@@ -15033,6 +16187,7 @@ GameObject:
   - component: {fileID: 1413219627}
   - component: {fileID: 1413219626}
   - component: {fileID: 1413219625}
+  - component: {fileID: 1413219629}
   m_Layer: 0
   m_Name: Cylinder (4)
   m_TagString: Untagged
@@ -15118,7 +16273,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_825e286d-985f-483e-897c-95f5b796cd28
+    name: UM_OperatedMesh_ae472e6b-9172-41dd-886f-fc2f3c6a16ce
     skinnedMesh: 0
     sharedMesh: {fileID: 1227860078}
     buidVersion:
@@ -15131,7 +16286,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 825e286d-985f-483e-897c-95f5b796cd28
+  sourceMeshRendererGUID: ae472e6b-9172-41dd-886f-fc2f3c6a16ce
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -15168,6 +16323,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 84.131, z: -89.359}
+--- !u!65 &1413219629
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413219624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603366, y: 0.39341635, z: 0.07990585}
+  m_Center: {x: -0.073537126, y: 0.040242944, z: 0.000000016970143}
 --- !u!1001 &1426308191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15177,8 +16353,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: MoveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: JumpHeight
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: SprintSpeed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 453084650579209848, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
+      propertyPath: RotationSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2862278905927072854, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: Priority.Enabled
@@ -15655,6 +16843,7 @@ GameObject:
   - component: {fileID: 1482737246}
   - component: {fileID: 1482737245}
   - component: {fileID: 1482737244}
+  - component: {fileID: 1482737248}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -15740,7 +16929,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b21df01e-4072-4389-a965-072c1c5316d2
+    name: UM_OperatedMesh_f3f99e47-6e70-4e46-95a4-b6ac2be04d70
     skinnedMesh: 0
     sharedMesh: {fileID: 1215820664}
     buidVersion:
@@ -15753,7 +16942,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b21df01e-4072-4389-a965-072c1c5316d2
+  sourceMeshRendererGUID: f3f99e47-6e70-4e46-95a4-b6ac2be04d70
   guid: 85ec48d8-9946-477e-af8f-8e37ac8b676a
   localOptions:
     RecalculateTangents: 0
@@ -15790,6 +16979,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!65 &1482737248
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482737243}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.27300006, y: 1.0975645, z: 0.2729999}
+  m_Center: {x: -0.000000052154064, y: 0.5487784, z: 0}
 --- !u!114 &1484372610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16132,7 +17342,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2f278765-0ed7-4975-96d4-b4b301de0d6e
+    name: UM_OperatedMesh_6a0d5d24-3eb6-4402-8a56-2c2cae1d76c7
     skinnedMesh: 0
     sharedMesh: {fileID: 1250737978}
     buidVersion:
@@ -16145,7 +17355,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2f278765-0ed7-4975-96d4-b4b301de0d6e
+  sourceMeshRendererGUID: 6a0d5d24-3eb6-4402-8a56-2c2cae1d76c7
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -16264,7 +17474,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2828a4a7-3af3-4124-9fe3-d95dfe6b7a54
+    name: UM_OperatedMesh_f480b3e6-d935-4336-83e8-e5d20462a05c
     skinnedMesh: 0
     sharedMesh: {fileID: 1060390307}
     buidVersion:
@@ -16277,7 +17487,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2828a4a7-3af3-4124-9fe3-d95dfe6b7a54
+  sourceMeshRendererGUID: f480b3e6-d935-4336-83e8-e5d20462a05c
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -16352,6 +17562,7 @@ GameObject:
   - component: {fileID: 1555461812}
   - component: {fileID: 1555461811}
   - component: {fileID: 1555461810}
+  - component: {fileID: 1555461813}
   m_Layer: 0
   m_Name: Cylinder (5)
   m_TagString: Untagged
@@ -16452,7 +17663,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9f6ce5be-b644-408e-b058-c097e9660f5a
+    name: UM_OperatedMesh_7d4e4485-5a37-4f37-9d8e-1f821b653a6d
     skinnedMesh: 0
     sharedMesh: {fileID: 1382007732}
     buidVersion:
@@ -16465,7 +17676,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9f6ce5be-b644-408e-b058-c097e9660f5a
+  sourceMeshRendererGUID: 7d4e4485-5a37-4f37-9d8e-1f821b653a6d
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -16487,6 +17698,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1555461813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555461808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0732652, y: 1.9495494, z: 1.0732654}
+  m_Center: {x: 0.000001937151, y: 0.97477424, z: -0.00000017136335}
 --- !u!1 &1556787811
 GameObject:
   m_ObjectHideFlags: 0
@@ -16584,7 +17816,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_030a7db5-d0b7-4153-9462-eb2d8c3054bb
+    name: UM_OperatedMesh_2e7123bb-4a65-4eb7-ba30-4215d843c603
     skinnedMesh: 0
     sharedMesh: {fileID: 318746555}
     buidVersion:
@@ -16597,7 +17829,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 030a7db5-d0b7-4153-9462-eb2d8c3054bb
+  sourceMeshRendererGUID: 2e7123bb-4a65-4eb7-ba30-4215d843c603
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -16746,7 +17978,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0ac8cd57-0855-4fa1-9dfb-3225de0ff79c
+    name: UM_OperatedMesh_7022350b-0508-40bd-811b-59aa249f0d00
     skinnedMesh: 0
     sharedMesh: {fileID: 527664677}
     buidVersion:
@@ -16759,7 +17991,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0ac8cd57-0855-4fa1-9dfb-3225de0ff79c
+  sourceMeshRendererGUID: 7022350b-0508-40bd-811b-59aa249f0d00
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -17234,7 +18466,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ce9d773b-616f-4d5e-a29c-a042e298110a
+    name: UM_OperatedMesh_6561c97a-72c8-4e21-b30c-65cb02faf2ac
     skinnedMesh: 0
     sharedMesh: {fileID: 1510796160}
     buidVersion:
@@ -17247,7 +18479,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ce9d773b-616f-4d5e-a29c-a042e298110a
+  sourceMeshRendererGUID: 6561c97a-72c8-4e21-b30c-65cb02faf2ac
   guid: 7c0a79cf-00b8-4efa-87f3-ff5873a15659
   localOptions:
     RecalculateTangents: 0
@@ -17296,6 +18528,7 @@ GameObject:
   - component: {fileID: 1585412381}
   - component: {fileID: 1585412380}
   - component: {fileID: 1585412379}
+  - component: {fileID: 1585412383}
   m_Layer: 0
   m_Name: Cylinder (1)
   m_TagString: Untagged
@@ -17381,7 +18614,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fb110381-99f3-43f7-816c-f8ebcdc9d6eb
+    name: UM_OperatedMesh_7d43b113-bdac-4e98-9e13-e7abc1b25673
     skinnedMesh: 0
     sharedMesh: {fileID: 1393234999}
     buidVersion:
@@ -17394,7 +18627,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fb110381-99f3-43f7-816c-f8ebcdc9d6eb
+  sourceMeshRendererGUID: 7d43b113-bdac-4e98-9e13-e7abc1b25673
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -17431,6 +18664,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1585412383
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585412378}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603355, y: 0.39341623, z: 0.07990579}
+  m_Center: {x: -0.07353688, y: 0.040242963, z: -0.000000055879354}
 --- !u!114 &1585460859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18134,6 +19388,81 @@ MonoBehaviour:
     IndexVersion: 24
     OptimizedTopology: 0
     TransformVersion: 24
+--- !u!1 &1694067041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1694067042}
+  - component: {fileID: 1694067044}
+  - component: {fileID: 1694067043}
+  m_Layer: 5
+  m_Name: Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1694067042
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694067041}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 998261855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1694067043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694067041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1694067044
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694067041}
+  m_CullTransparentMesh: 1
 --- !u!114 &1695632344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18172,6 +19501,7 @@ GameObject:
   - component: {fileID: 1700430264}
   - component: {fileID: 1700430263}
   - component: {fileID: 1700430262}
+  - component: {fileID: 1700430265}
   m_Layer: 0
   m_Name: BackWall
   m_TagString: Untagged
@@ -18272,7 +19602,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cbce8ef1-37a0-44ec-b9d6-9f2172f0d084
+    name: UM_OperatedMesh_36d09161-8c8d-47b9-8ec2-20aa6023a50e
     skinnedMesh: 0
     sharedMesh: {fileID: 1241552714}
     buidVersion:
@@ -18285,7 +19615,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cbce8ef1-37a0-44ec-b9d6-9f2172f0d084
+  sourceMeshRendererGUID: 36d09161-8c8d-47b9-8ec2-20aa6023a50e
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -18307,6 +19637,130 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1700430265
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700430260}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15013936, y: 3.400383, z: 10.5221195}
+  m_Center: {x: -0.07506968, y: 1.7001915, z: -5.2610617}
+--- !u!1 &1724774294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724774298}
+  - component: {fileID: 1724774297}
+  - component: {fileID: 1724774296}
+  - component: {fileID: 1724774295}
+  m_Layer: 5
+  m_Name: '[[  Canvas - HUD  ]]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1724774295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724774294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1724774296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724774294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 1
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1724774297
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724774294}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1724774298
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724774294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1781340885}
+  - {fileID: 1982616578}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &1752870923
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18333,6 +19787,81 @@ MonoBehaviour:
     IndexVersion: 16
     OptimizedTopology: 0
     TransformVersion: 15
+--- !u!1 &1766250030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1766250031}
+  - component: {fileID: 1766250033}
+  - component: {fileID: 1766250032}
+  m_Layer: 5
+  m_Name: Item1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1766250031
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766250030}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1257059513}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 35, y: -35}
+  m_SizeDelta: {x: 70, y: 70}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1766250032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766250030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1766250033
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766250030}
+  m_CullTransparentMesh: 1
 --- !u!43 &1768740480
 Mesh:
   m_ObjectHideFlags: 0
@@ -18511,6 +20040,107 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1781340884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1781340885}
+  - component: {fileID: 1781340888}
+  - component: {fileID: 1781340887}
+  - component: {fileID: 1781340886}
+  m_Layer: 5
+  m_Name: HUD Inventory Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1781340885
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781340884}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 998261855}
+  - {fileID: 1257059513}
+  m_Father: {fileID: 1724774298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0.000061035156, y: 92.11009}
+  m_SizeDelta: {x: 500, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1781340886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781340884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b855d31e6e5357946baf2f874d38a0e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventory
+  slots:
+  - img: {fileID: 1766250032}
+    item: {fileID: 0}
+  - img: {fileID: 186013804}
+    item: {fileID: 0}
+  - img: {fileID: 521047000}
+    item: {fileID: 0}
+  - img: {fileID: 385265627}
+    item: {fileID: 0}
+  - img: {fileID: 823817485}
+    item: {fileID: 0}
+--- !u!114 &1781340887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781340884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1781340888
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781340884}
+  m_CullTransparentMesh: 1
 --- !u!1 &1789791413
 GameObject:
   m_ObjectHideFlags: 0
@@ -18523,6 +20153,7 @@ GameObject:
   - component: {fileID: 1789791416}
   - component: {fileID: 1789791415}
   - component: {fileID: 1789791414}
+  - component: {fileID: 1789791418}
   m_Layer: 0
   m_Name: Cylinder (10)
   m_TagString: Untagged
@@ -18608,7 +20239,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_87ebb5de-7f55-4e87-a7e4-4254b517f59b
+    name: UM_OperatedMesh_58c1ab9f-4235-474b-816b-1bb22d3d36c0
     skinnedMesh: 0
     sharedMesh: {fileID: 1768740480}
     buidVersion:
@@ -18621,7 +20252,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 87ebb5de-7f55-4e87-a7e4-4254b517f59b
+  sourceMeshRendererGUID: 58c1ab9f-4235-474b-816b-1bb22d3d36c0
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -18658,6 +20289,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -255.324}
+--- !u!65 &1789791418
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789791413}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17980443, y: 0.39202797, z: 0.07990585}
+  m_Center: {x: -0.050422527, y: 0.04093709, z: -0.000000009256932}
 --- !u!114 &1791185242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18822,7 +20474,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3015303e-3b09-45a0-a081-2090edf0f631
+    name: UM_OperatedMesh_741d7c75-205e-44f1-8be5-e07d2e35060f
     skinnedMesh: 0
     sharedMesh: {fileID: 1987866130}
     buidVersion:
@@ -18835,7 +20487,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3015303e-3b09-45a0-a081-2090edf0f631
+  sourceMeshRendererGUID: 741d7c75-205e-44f1-8be5-e07d2e35060f
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -18869,6 +20521,7 @@ GameObject:
   - component: {fileID: 1819774894}
   - component: {fileID: 1819774893}
   - component: {fileID: 1819774892}
+  - component: {fileID: 1819774895}
   m_Layer: 0
   m_Name: Cylinder (7)
   m_TagString: Untagged
@@ -18969,7 +20622,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7524c08c-5317-4582-b714-996c2ac3667c
+    name: UM_OperatedMesh_ea0c3d92-0807-4255-88cf-c89eba38c3a1
     skinnedMesh: 0
     sharedMesh: {fileID: 1651343691}
     buidVersion:
@@ -18982,7 +20635,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7524c08c-5317-4582-b714-996c2ac3667c
+  sourceMeshRendererGUID: ea0c3d92-0807-4255-88cf-c89eba38c3a1
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -19004,6 +20657,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1819774895
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819774890}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0732652, y: 1.9495491, z: 1.0732652}
+  m_Center: {x: 0.00000002980232, y: 0.9747743, z: 0}
 --- !u!43 &1826651896
 Mesh:
   m_ObjectHideFlags: 0
@@ -19220,6 +20894,7 @@ GameObject:
   - component: {fileID: 1838406099}
   - component: {fileID: 1838406098}
   - component: {fileID: 1838406097}
+  - component: {fileID: 1838406100}
   m_Layer: 0
   m_Name: Cylinder (17)
   m_TagString: Untagged
@@ -19320,7 +20995,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3c325947-0d27-4c33-b2cf-73ee025b17c1
+    name: UM_OperatedMesh_b05ced54-d0ed-431b-b48b-b508f0de77d9
     skinnedMesh: 0
     sharedMesh: {fileID: 1010811816}
     buidVersion:
@@ -19333,7 +21008,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3c325947-0d27-4c33-b2cf-73ee025b17c1
+  sourceMeshRendererGUID: b05ced54-d0ed-431b-b48b-b508f0de77d9
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -19355,6 +21030,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1838406100
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838406095}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.08854024, y: 0.1490084, z: 0.08854025}
+  m_Center: {x: 0, y: 0.0745042, z: -0.000000070780516}
 --- !u!114 &1860594227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19479,7 +21175,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a5b8a879-fde3-4d4f-8823-a2a46ba853ee
+    name: UM_OperatedMesh_06fd38d0-6080-4141-87c0-f51f93ce27e7
     skinnedMesh: 0
     sharedMesh: {fileID: 2079877250}
     buidVersion:
@@ -19492,7 +21188,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a5b8a879-fde3-4d4f-8823-a2a46ba853ee
+  sourceMeshRendererGUID: 06fd38d0-6080-4141-87c0-f51f93ce27e7
   guid: 489731a0-f8c8-47ec-82ca-e993858a5bca
   localOptions:
     RecalculateTangents: 0
@@ -19662,7 +21358,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8cdc98e3-1992-4ee5-8dd8-ba442bec3765
+    name: UM_OperatedMesh_c534f52c-c0b4-4035-a355-6adfbb2e39a1
     skinnedMesh: 0
     sharedMesh: {fileID: 1185807900}
     buidVersion:
@@ -19675,7 +21371,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8cdc98e3-1992-4ee5-8dd8-ba442bec3765
+  sourceMeshRendererGUID: c534f52c-c0b4-4035-a355-6adfbb2e39a1
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -19836,6 +21532,7 @@ GameObject:
   - component: {fileID: 1915972392}
   - component: {fileID: 1915972391}
   - component: {fileID: 1915972390}
+  - component: {fileID: 1915972393}
   m_Layer: 0
   m_Name: RightWall
   m_TagString: Untagged
@@ -19936,7 +21633,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8eb07cbd-50df-4f99-9706-5245ee45654d
+    name: UM_OperatedMesh_a5c475d7-21f7-4346-b712-1722f3db833d
     skinnedMesh: 0
     sharedMesh: {fileID: 1358529406}
     buidVersion:
@@ -19949,7 +21646,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8eb07cbd-50df-4f99-9706-5245ee45654d
+  sourceMeshRendererGUID: a5c475d7-21f7-4346-b712-1722f3db833d
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -19971,6 +21668,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &1915972393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915972388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15013933, y: 3.400383, z: 10.522117}
+  m_Center: {x: -0.075069666, y: 1.7001915, z: -5.2610583}
 --- !u!1 &1936689618
 GameObject:
   m_ObjectHideFlags: 0
@@ -19983,6 +21701,7 @@ GameObject:
   - component: {fileID: 1936689621}
   - component: {fileID: 1936689620}
   - component: {fileID: 1936689619}
+  - component: {fileID: 1936689623}
   m_Layer: 0
   m_Name: Cylinder (2)
   m_TagString: Untagged
@@ -20068,7 +21787,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_924f46de-2d55-40eb-8d5e-008c9a3c793a
+    name: UM_OperatedMesh_147f1582-81b8-474f-ace1-21d09f4ceb3c
     skinnedMesh: 0
     sharedMesh: {fileID: 36282266}
     buidVersion:
@@ -20081,7 +21800,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 924f46de-2d55-40eb-8d5e-008c9a3c793a
+  sourceMeshRendererGUID: 147f1582-81b8-474f-ace1-21d09f4ceb3c
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -20118,6 +21837,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: -3.655, y: -88.56, z: 89.786}
+--- !u!65 &1936689623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936689618}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603361, y: 0.39341635, z: 0.07990585}
+  m_Center: {x: -0.073537126, y: 0.04024318, z: -0.0000002417796}
 --- !u!43 &1949255528
 Mesh:
   m_ObjectHideFlags: 0
@@ -20486,6 +22226,7 @@ GameObject:
   - component: {fileID: 1976715826}
   - component: {fileID: 1976715825}
   - component: {fileID: 1976715824}
+  - component: {fileID: 1976715828}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -20571,7 +22312,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b9f95091-3f70-43e9-a077-cce64cedcf06
+    name: UM_OperatedMesh_16dc34c4-51db-4983-99ee-54111dd4d10b
     skinnedMesh: 0
     sharedMesh: {fileID: 27616365}
     buidVersion:
@@ -20584,7 +22325,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b9f95091-3f70-43e9-a077-cce64cedcf06
+  sourceMeshRendererGUID: 16dc34c4-51db-4983-99ee-54111dd4d10b
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -20621,6 +22362,117 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1976715828
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976715823}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.0428047, y: 2.5548315, z: 2.042805}
+  m_Center: {x: 0, y: 1.2774159, z: 0.00000005960464}
+--- !u!1 &1982616577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1982616578}
+  - component: {fileID: 1982616581}
+  - component: {fileID: 1982616580}
+  - component: {fileID: 1982616579}
+  m_Layer: 5
+  m_Name: Reticle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1982616578
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982616577}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1724774298}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 76, y: 35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1982616579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982616577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab72c986b73ae74bb22d5dfdd6791c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CustomCursor
+  sprHover: {fileID: -728159032, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  clrHover: {r: 0, g: 1, b: 0.03938818, a: 1}
+--- !u!114 &1982616580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982616577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3537736, g: 0.609427, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1255589921, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1982616581
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982616577}
+  m_CullTransparentMesh: 1
 --- !u!43 &1987866130
 Mesh:
   m_ObjectHideFlags: 0
@@ -20825,6 +22677,81 @@ MonoBehaviour:
     IndexVersion: 0
     OptimizedTopology: 0
     TransformVersion: 0
+--- !u!1 &1997280736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997280737}
+  - component: {fileID: 1997280739}
+  - component: {fileID: 1997280738}
+  m_Layer: 5
+  m_Name: Slots
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1997280737
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997280736}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 998261855}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1997280738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997280736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -1001781182, guid: a91be92b7922f4760a2895a345a87ef2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1997280739
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997280736}
+  m_CullTransparentMesh: 1
 --- !u!43 &2000394167
 Mesh:
   m_ObjectHideFlags: 0
@@ -21219,6 +23146,7 @@ GameObject:
   - component: {fileID: 2028484287}
   - component: {fileID: 2028484286}
   - component: {fileID: 2028484285}
+  - component: {fileID: 2028484289}
   m_Layer: 0
   m_Name: Cylinder (5)
   m_TagString: Untagged
@@ -21304,7 +23232,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_89e43e38-2d53-4442-9df7-9f253924c4e0
+    name: UM_OperatedMesh_ce81d0ae-054b-4f89-8fdb-0840a80cdf18
     skinnedMesh: 0
     sharedMesh: {fileID: 1165198704}
     buidVersion:
@@ -21317,7 +23245,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 89e43e38-2d53-4442-9df7-9f253924c4e0
+  sourceMeshRendererGUID: ce81d0ae-054b-4f89-8fdb-0840a80cdf18
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -21354,6 +23282,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 273.32098, z: 0}
+--- !u!65 &2028484289
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028484284}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603354, y: 0.39341623, z: 0.079905786}
+  m_Center: {x: -0.07353723, y: 0.040242888, z: 0.000000003451343}
 --- !u!1 &2030741452
 GameObject:
   m_ObjectHideFlags: 0
@@ -21366,6 +23315,7 @@ GameObject:
   - component: {fileID: 2030741455}
   - component: {fileID: 2030741454}
   - component: {fileID: 2030741453}
+  - component: {fileID: 2030741457}
   m_Layer: 0
   m_Name: Cylinder (3)
   m_TagString: Untagged
@@ -21451,7 +23401,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5b3f43c7-81bf-424a-8bc5-df446923cb13
+    name: UM_OperatedMesh_44faadd0-ada8-4318-a156-cede42e2084c
     skinnedMesh: 0
     sharedMesh: {fileID: 19702991}
     buidVersion:
@@ -21464,7 +23414,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5b3f43c7-81bf-424a-8bc5-df446923cb13
+  sourceMeshRendererGUID: 44faadd0-ada8-4318-a156-cede42e2084c
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -21501,6 +23451,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0, y: 159.749, z: 0}
+--- !u!65 &2030741457
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030741452}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603361, y: 0.39341623, z: 0.079905815}
+  m_Center: {x: -0.07353737, y: 0.040242918, z: 0.000000063329935}
 --- !u!114 &2040985403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21577,6 +23548,7 @@ GameObject:
   - component: {fileID: 2065001418}
   - component: {fileID: 2065001417}
   - component: {fileID: 2065001416}
+  - component: {fileID: 2065001419}
   m_Layer: 0
   m_Name: Cylinder (15)
   m_TagString: Untagged
@@ -21677,7 +23649,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4503b765-ec01-4fe2-acc6-0301e33a4377
+    name: UM_OperatedMesh_24087bc5-0f74-4cbd-9eda-470d1170be14
     skinnedMesh: 0
     sharedMesh: {fileID: 965832051}
     buidVersion:
@@ -21690,7 +23662,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4503b765-ec01-4fe2-acc6-0301e33a4377
+  sourceMeshRendererGUID: 24087bc5-0f74-4cbd-9eda-470d1170be14
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -21712,6 +23684,27 @@ MonoBehaviour:
   modifierStack:
     modifierList: []
     currentIndex: -1
+--- !u!65 &2065001419
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065001414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603367, y: 0.3934164, z: 0.07990584}
+  m_Center: {x: -0.07353714, y: 0.04024296, z: 0.0000000037252925}
 --- !u!1 &2067506401
 GameObject:
   m_ObjectHideFlags: 0
@@ -21724,6 +23717,7 @@ GameObject:
   - component: {fileID: 2067506404}
   - component: {fileID: 2067506403}
   - component: {fileID: 2067506402}
+  - component: {fileID: 2067506406}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -21809,7 +23803,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7de40942-f9a8-4180-9517-fa023085182d
+    name: UM_OperatedMesh_532ede65-dc85-497b-8b3f-9f4e342575c7
     skinnedMesh: 0
     sharedMesh: {fileID: 851316504}
     buidVersion:
@@ -21822,7 +23816,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7de40942-f9a8-4180-9517-fa023085182d
+  sourceMeshRendererGUID: 532ede65-dc85-497b-8b3f-9f4e342575c7
   guid: a98f835e-d971-411f-a0b8-a1add2124e30
   localOptions:
     RecalculateTangents: 0
@@ -21859,6 +23853,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 990276595}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2067506406
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067506401}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.39580622, y: 0.96540356, z: 2.2510312}
+  m_Center: {x: 0.19790311, y: -0.2618882, z: 0.5325457}
 --- !u!1 &2068699075
 GameObject:
   m_ObjectHideFlags: 0
@@ -21971,7 +23986,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_15f9b119-a144-4aa8-9171-8bb710be9138
+    name: UM_OperatedMesh_4da28df0-0011-4029-b254-aaf9f421f45f
     skinnedMesh: 0
     sharedMesh: {fileID: 302263749}
     buidVersion:
@@ -21984,7 +23999,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 15f9b119-a144-4aa8-9171-8bb710be9138
+  sourceMeshRendererGUID: 4da28df0-0011-4029-b254-aaf9f421f45f
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -22118,7 +24133,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7bf210a5-23e8-4664-b99d-3930c2718e02
+    name: UM_OperatedMesh_fa3f296a-eead-4cc5-865b-d210988191b0
     skinnedMesh: 0
     sharedMesh: {fileID: 1248770913}
     buidVersion:
@@ -22131,7 +24146,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7bf210a5-23e8-4664-b99d-3930c2718e02
+  sourceMeshRendererGUID: fa3f296a-eead-4cc5-865b-d210988191b0
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -22421,6 +24436,7 @@ GameObject:
   - component: {fileID: 2129273611}
   - component: {fileID: 2129273610}
   - component: {fileID: 2129273609}
+  - component: {fileID: 2129273613}
   m_Layer: 0
   m_Name: Cylinder (11)
   m_TagString: Untagged
@@ -22506,7 +24522,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_124ade27-e8ac-47dc-b2c0-05ea4e270ec0
+    name: UM_OperatedMesh_044ecded-fc66-4058-b3d3-cade34241bf1
     skinnedMesh: 0
     sharedMesh: {fileID: 922138342}
     buidVersion:
@@ -22519,7 +24535,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 124ade27-e8ac-47dc-b2c0-05ea4e270ec0
+  sourceMeshRendererGUID: 044ecded-fc66-4058-b3d3-cade34241bf1
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -22556,6 +24572,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 327924528}
   m_LocalEulerAnglesHint: {x: 0.854, y: -0.017, z: 89.786}
+--- !u!65 &2129273613
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129273608}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22603355, y: 0.3934163, z: 0.07990579}
+  m_Center: {x: -0.07353709, y: 0.040242918, z: 0.0000000037235335}
 --- !u!114 &2138222034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22794,3 +24831,4 @@ SceneRoots:
   - {fileID: 340145553}
   - {fileID: 1650089986}
   - {fileID: 1426308191}
+  - {fileID: 1724774298}
