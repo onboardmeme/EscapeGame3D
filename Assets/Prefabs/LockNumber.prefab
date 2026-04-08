@@ -56,7 +56,7 @@ MonoBehaviour:
   - Assets/Materials/Numbers.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_23ba6064-7f84-4eee-ae22-323b89baf458
+    name: UM_OperatedMesh_094b4a47-5752-4b07-a0ed-b1e3b59e4d32
     skinnedMesh: 0
     sharedMesh: {fileID: -5685731820026742432}
     buidVersion:
@@ -69,7 +69,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 23ba6064-7f84-4eee-ae22-323b89baf458
+  sourceMeshRendererGUID: 094b4a47-5752-4b07-a0ed-b1e3b59e4d32
   guid: 88ff210d-2558-44f3-aaf6-1b88d16acb21
   localOptions:
     RecalculateTangents: 0
@@ -195,142 +195,138 @@ Transform:
   - {fileID: 5450240232706430239}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -17.351, y: 0, z: 90}
---- !u!1 &6853666123660184272
-GameObject:
+--- !u!1001 &53719644256432582
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8326572254356113744}
-  - component: {fileID: 409347743913309808}
-  - component: {fileID: 5393627387212362462}
-  m_Layer: 0
-  m_Name: Rot Up
-  m_TagString: Clickable
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8326572254356113744
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6853666123660184272}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0805, y: 0.0532, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.11, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6333254741805649793}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &409347743913309808
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6853666123660184272}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5393627387212362462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6853666123660184272}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5529675bbe8a43842bcd8c9e7d066a56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tumble
-  tumbler: {fileID: 714907470238904638}
-  tumbleDir: 0
---- !u!1 &8572344320934679065
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5450240232706430239}
-  - component: {fileID: 4438011831680567118}
-  - component: {fileID: 3893954696594942848}
-  m_Layer: 0
-  m_Name: Rot Down
-  m_TagString: Clickable
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5450240232706430239
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6333254741805649793}
+    m_Modifications:
+    - target: {fileID: 3941989502005549638, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: tumbler
+      value: 
+      objectReference: {fileID: 714907470238904638}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.057
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0532
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523568098148312031, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+      propertyPath: m_Name
+      value: Rot Down
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+--- !u!4 &5450240232706430239 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5412760667530667225, guid: c1675f4134275654ea09c75cc1849c75, type: 3}
+  m_PrefabInstance: {fileID: 53719644256432582}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8572344320934679065}
+--- !u!1001 &7893001713958980619
+PrefabInstance:
+  m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.057, y: 0.0532, z: 0}
-  m_LocalScale: {x: 0.08, y: 0.11, z: 0.1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6333254741805649793}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4438011831680567118
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6333254741805649793}
+    m_Modifications:
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0805
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0532
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2833767699179339477, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: tumbler
+      value: 
+      objectReference: {fileID: 714907470238904638}
+    - target: {fileID: 3644694385086940891, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+      propertyPath: m_Name
+      value: Rot Up
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+--- !u!4 &8326572254356113744 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2162992689100227931, guid: 19bac6ff22072f444a993cbe0e54aaa4, type: 3}
+  m_PrefabInstance: {fileID: 7893001713958980619}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8572344320934679065}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3893954696594942848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8572344320934679065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5529675bbe8a43842bcd8c9e7d066a56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Tumble
-  tumbler: {fileID: 714907470238904638}
-  tumbleDir: 1
 --- !u!43 &-5685731820026742432
 Mesh:
   m_ObjectHideFlags: 0
