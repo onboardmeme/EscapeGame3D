@@ -119,6 +119,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!43 &26486752
 Mesh:
   m_ObjectHideFlags: 0
@@ -5786,6 +5787,8 @@ MonoBehaviour:
     IndexVersion: 0
     OptimizedTopology: 0
     TransformVersion: 0
+=======
+>>>>>>> finalized-room-models
 --- !u!1 &767117090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5884,6 +5887,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1417346259}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!114 &767117093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10974,6 +10978,9 @@ Mesh:
         m_IndexStart: 0
         m_IndexCount: 0
 --- !u!1001 &1470932218
+=======
+--- !u!1001 &1454466983
+>>>>>>> finalized-room-models
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10981,6 +10988,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 2862278905927072854, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
       propertyPath: Priority.Enabled
       value: 1
@@ -11057,10 +11065,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_Name
+      value: PlayerCapsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 7.267
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.465
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> finalized-room-models
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 035bf1ba97d19214580cfe6f5a29fdc3, type: 3}
 --- !u!43 &1486529630
 Mesh:
@@ -11906,6 +11961,10 @@ MonoBehaviour:
     modifierList: []
     currentIndex: -1
 --- !u!1 &1559641804
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+--- !u!1 &1586768634
+>>>>>>> finalized-room-models
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11941,6 +12000,7 @@ RectTransform:
   - {fileID: 1534060835}
   m_Father: {fileID: 580535937}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -167.55, y: -10}
@@ -11972,31 +12032,13 @@ MonoBehaviour:
   m_ConstraintCount: 2
 --- !u!1 &1588132450
 GameObject:
+=======
+--- !u!1001 &4604853700458665850
+PrefabInstance:
+>>>>>>> finalized-room-models
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1588132451}
-  - component: {fileID: 1588132454}
-  - component: {fileID: 1588132453}
-  - component: {fileID: 1588132452}
-  m_Layer: 0
-  m_Name: switch3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1588132451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588132450}
   serializedVersion: 2
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 1.1389999}
   m_LocalScale: {x: 1, y: 1, z: 0.7731}
@@ -16063,10 +16105,66 @@ MonoBehaviour:
     IndexVersion: 0
     OptimizedTopology: 0
     TransformVersion: 0
+=======
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5954034669605779935, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_Name
+      value: greyboxShip
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.5321
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 12.865
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395733282773007261, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bd929d07ec4b60849916f174bc4ddcab, type: 3}
+>>>>>>> finalized-room-models
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+<<<<<<< HEAD
   - {fileID: 1417346259}
   - {fileID: 1766247572}
   - {fileID: 1470932218}
@@ -16075,3 +16173,9 @@ SceneRoots:
   - {fileID: 1533628144}
   - {fileID: 381919203}
   - {fileID: 2016873128}
+=======
+  - {fileID: 1586768637}
+  - {fileID: 767117092}
+  - {fileID: 1454466983}
+  - {fileID: 4604853700458665850}
+>>>>>>> finalized-room-models
