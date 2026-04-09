@@ -573,7 +573,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f4244e1e-8a8e-4375-8500-98672b6bff5d
+    name: UM_OperatedMesh_cf5dca4b-ef21-47eb-873f-1285581e7d46
     skinnedMesh: 0
     sharedMesh: {fileID: 413573284}
     buidVersion:
@@ -586,7 +586,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f4244e1e-8a8e-4375-8500-98672b6bff5d
+  sourceMeshRendererGUID: cf5dca4b-ef21-47eb-873f-1285581e7d46
   guid: 9d1e5aef-c119-4d0e-a3a2-173b149d31d6
   localOptions:
     RecalculateTangents: 0
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b94da853-aa31-4877-a4b2-9594cfe8cb93
+    name: UM_OperatedMesh_3a36ac1f-df95-4000-849f-4d1b4553b2d8
     skinnedMesh: 0
     sharedMesh: {fileID: 991924911}
     buidVersion:
@@ -1225,7 +1225,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b94da853-aa31-4877-a4b2-9594cfe8cb93
+  sourceMeshRendererGUID: 3a36ac1f-df95-4000-849f-4d1b4553b2d8
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -1590,7 +1590,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cbb549b0-b071-4426-88c3-d0585a98b8e9
+    name: UM_OperatedMesh_ce617d21-f2d1-4bd8-a5f4-9c2f3f0a4edb
     skinnedMesh: 0
     sharedMesh: {fileID: 1155904787}
     buidVersion:
@@ -1603,7 +1603,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cbb549b0-b071-4426-88c3-d0585a98b8e9
+  sourceMeshRendererGUID: ce617d21-f2d1-4bd8-a5f4-9c2f3f0a4edb
   guid: 4f106c2f-1ea2-41d8-b18d-3efe22b3c71c
   localOptions:
     RecalculateTangents: 0
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_30d690c8-b46a-4ca0-9250-d43da9c84cda
+    name: UM_OperatedMesh_4af7dfde-bc0c-4f04-8d9c-669e69d5cef5
     skinnedMesh: 0
     sharedMesh: {fileID: 950287085}
     buidVersion:
@@ -2015,7 +2015,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 30d690c8-b46a-4ca0-9250-d43da9c84cda
+  sourceMeshRendererGUID: 4af7dfde-bc0c-4f04-8d9c-669e69d5cef5
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -2679,7 +2679,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6f373927-c25e-4b51-a215-e4453148e479
+    name: UM_OperatedMesh_8adc83f2-2136-43ac-bde2-e39c03ec95c9
     skinnedMesh: 0
     sharedMesh: {fileID: 1420060148}
     buidVersion:
@@ -2692,7 +2692,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6f373927-c25e-4b51-a215-e4453148e479
+  sourceMeshRendererGUID: 8adc83f2-2136-43ac-bde2-e39c03ec95c9
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -2949,7 +2949,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3aeacd2b-4710-4028-810c-885073cd59cc
+    name: UM_OperatedMesh_d7abc8e4-35ea-4acf-9d54-193b3f1eae2f
     skinnedMesh: 0
     sharedMesh: {fileID: 1915766443}
     buidVersion:
@@ -2962,7 +2962,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3aeacd2b-4710-4028-810c-885073cd59cc
+  sourceMeshRendererGUID: d7abc8e4-35ea-4acf-9d54-193b3f1eae2f
   guid: a7cfbede-cc83-401f-8e1e-2f2b50dece96
   localOptions:
     RecalculateTangents: 0
@@ -3117,7 +3117,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3a77859e-777b-4411-8e49-244a7322aa6c
+    name: UM_OperatedMesh_2daba1f9-8922-48cd-bd50-b2a4b4411b31
     skinnedMesh: 0
     sharedMesh: {fileID: 2068667570}
     buidVersion:
@@ -3130,7 +3130,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3a77859e-777b-4411-8e49-244a7322aa6c
+  sourceMeshRendererGUID: 2daba1f9-8922-48cd-bd50-b2a4b4411b31
   guid: eade4a27-dce8-4c26-95bc-20eb382d2201
   localOptions:
     RecalculateTangents: 0
@@ -3244,7 +3244,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5d33d6a5-081d-42fa-a86f-938007e88dad
+    name: UM_OperatedMesh_4f801a97-3d54-4f7b-a9fe-4bf313eec7aa
     skinnedMesh: 0
     sharedMesh: {fileID: 1560540823}
     buidVersion:
@@ -3257,7 +3257,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5d33d6a5-081d-42fa-a86f-938007e88dad
+  sourceMeshRendererGUID: 4f801a97-3d54-4f7b-a9fe-4bf313eec7aa
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -3643,7 +3643,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_16d84b4f-b57d-40ce-89ab-80a6fa8492d5
+    name: UM_OperatedMesh_48a26f81-96f3-41c8-9a21-3d3c1e16bce5
     skinnedMesh: 0
     sharedMesh: {fileID: 1509036784}
     buidVersion:
@@ -3656,7 +3656,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 16d84b4f-b57d-40ce-89ab-80a6fa8492d5
+  sourceMeshRendererGUID: 48a26f81-96f3-41c8-9a21-3d3c1e16bce5
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -4154,7 +4154,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_cea28486-dd5a-44b1-904b-19b6d72aac7d
+    name: UM_OperatedMesh_a00bb325-5155-4776-8f63-552ddebd6323
     skinnedMesh: 0
     sharedMesh: {fileID: 1332095742}
     buidVersion:
@@ -4167,7 +4167,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: cea28486-dd5a-44b1-904b-19b6d72aac7d
+  sourceMeshRendererGUID: a00bb325-5155-4776-8f63-552ddebd6323
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -4502,7 +4502,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_895bcb70-41fd-4236-8fac-afda07bf01cd
+    name: UM_OperatedMesh_55331bc2-56b4-44bd-bd47-96c9ea423d0f
     skinnedMesh: 0
     sharedMesh: {fileID: 1574213087}
     buidVersion:
@@ -4515,7 +4515,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 895bcb70-41fd-4236-8fac-afda07bf01cd
+  sourceMeshRendererGUID: 55331bc2-56b4-44bd-bd47-96c9ea423d0f
   guid: 4f106c2f-1ea2-41d8-b18d-3efe22b3c71c
   localOptions:
     RecalculateTangents: 0
@@ -4744,7 +4744,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d26b2d22-c735-4994-9ad7-cb6c96020b90
+    name: UM_OperatedMesh_fb84f984-837e-4a5d-a0a1-b6156c086713
     skinnedMesh: 0
     sharedMesh: {fileID: 1267975013}
     buidVersion:
@@ -4757,7 +4757,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d26b2d22-c735-4994-9ad7-cb6c96020b90
+  sourceMeshRendererGUID: fb84f984-837e-4a5d-a0a1-b6156c086713
   guid: 94082117-ef8a-47a6-978f-f62224662974
   localOptions:
     RecalculateTangents: 0
@@ -5698,7 +5698,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_091657f6-4127-4a47-864c-b928be5574e7
+    name: UM_OperatedMesh_6fe58f95-4406-46ba-8856-7a59fe08fee1
     skinnedMesh: 0
     sharedMesh: {fileID: 1302857532}
     buidVersion:
@@ -5711,7 +5711,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 091657f6-4127-4a47-864c-b928be5574e7
+  sourceMeshRendererGUID: 6fe58f95-4406-46ba-8856-7a59fe08fee1
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -5893,7 +5893,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4abddfd8-cb99-4e79-8c73-07aeada16759
+    name: UM_OperatedMesh_75b4e02a-8419-4e20-9149-a0369fe3cdb1
     skinnedMesh: 0
     sharedMesh: {fileID: 470771118}
     buidVersion:
@@ -5906,7 +5906,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4abddfd8-cb99-4e79-8c73-07aeada16759
+  sourceMeshRendererGUID: 75b4e02a-8419-4e20-9149-a0369fe3cdb1
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -6498,7 +6498,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a4fbb51b-308e-452c-937f-828cf75bce24
+    name: UM_OperatedMesh_98511de9-3d58-4190-b553-6802750cee9f
     skinnedMesh: 0
     sharedMesh: {fileID: 554243370}
     buidVersion:
@@ -6511,7 +6511,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a4fbb51b-308e-452c-937f-828cf75bce24
+  sourceMeshRendererGUID: 98511de9-3d58-4190-b553-6802750cee9f
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -6884,7 +6884,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_da6c86d2-02ca-410b-addd-a9975daa8a29
+    name: UM_OperatedMesh_832503cc-676c-4858-a97a-7063cb3260de
     skinnedMesh: 0
     sharedMesh: {fileID: 446254580}
     buidVersion:
@@ -6897,7 +6897,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: da6c86d2-02ca-410b-addd-a9975daa8a29
+  sourceMeshRendererGUID: 832503cc-676c-4858-a97a-7063cb3260de
   guid: a7cfbede-cc83-401f-8e1e-2f2b50dece96
   localOptions:
     RecalculateTangents: 0
@@ -7068,7 +7068,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_396632e2-62f3-46ad-93ba-5eff58f61c6c
+    name: UM_OperatedMesh_51d66a02-b396-47ed-84e1-9a8dbcb0a710
     skinnedMesh: 0
     sharedMesh: {fileID: 933799367}
     buidVersion:
@@ -7081,7 +7081,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 396632e2-62f3-46ad-93ba-5eff58f61c6c
+  sourceMeshRendererGUID: 51d66a02-b396-47ed-84e1-9a8dbcb0a710
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -7263,7 +7263,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ecd9bbc2-8c9b-4236-88a0-8a8a2d022259
+    name: UM_OperatedMesh_d163f3e2-9b50-406c-b970-b83e376bc1a4
     skinnedMesh: 0
     sharedMesh: {fileID: 1884017696}
     buidVersion:
@@ -7276,7 +7276,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ecd9bbc2-8c9b-4236-88a0-8a8a2d022259
+  sourceMeshRendererGUID: d163f3e2-9b50-406c-b970-b83e376bc1a4
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -7492,7 +7492,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4077f6d2-6c5c-4d90-8848-83850165e2f0
+    name: UM_OperatedMesh_4f90cce0-bf55-42bb-b483-1fd88a66078a
     skinnedMesh: 0
     sharedMesh: {fileID: 327895270}
     buidVersion:
@@ -7505,7 +7505,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4077f6d2-6c5c-4d90-8848-83850165e2f0
+  sourceMeshRendererGUID: 4f90cce0-bf55-42bb-b483-1fd88a66078a
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -8453,7 +8453,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_17d643d2-0a00-4b90-93f2-dc78d87a008d
+    name: UM_OperatedMesh_5b59409f-0082-4f3b-8934-bce5b1606116
     skinnedMesh: 0
     sharedMesh: {fileID: 1841014503}
     buidVersion:
@@ -8466,7 +8466,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 17d643d2-0a00-4b90-93f2-dc78d87a008d
+  sourceMeshRendererGUID: 5b59409f-0082-4f3b-8934-bce5b1606116
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -8601,7 +8601,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d3887e57-0ca0-417e-8193-5a59852c7096
+    name: UM_OperatedMesh_fbfcfc54-d779-4d24-a221-630f0ffa842e
     skinnedMesh: 0
     sharedMesh: {fileID: 1563414574}
     buidVersion:
@@ -8614,7 +8614,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d3887e57-0ca0-417e-8193-5a59852c7096
+  sourceMeshRendererGUID: fbfcfc54-d779-4d24-a221-630f0ffa842e
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -8770,7 +8770,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_673e79de-f61c-408b-a9bb-2e513ff39894
+    name: UM_OperatedMesh_47acf0e9-ff97-4943-b12e-60eb4858f4ab
     skinnedMesh: 0
     sharedMesh: {fileID: 455641790}
     buidVersion:
@@ -8783,7 +8783,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 673e79de-f61c-408b-a9bb-2e513ff39894
+  sourceMeshRendererGUID: 47acf0e9-ff97-4943-b12e-60eb4858f4ab
   guid: 88ef7a7d-1ab6-4bbb-ac05-ab395ba0e2a3
   localOptions:
     RecalculateTangents: 0
@@ -9117,7 +9117,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_241f5276-7184-4a9e-ad0e-a49e82faa733
+    name: UM_OperatedMesh_aace6fd8-b563-48e3-9b5c-afa0a0f22e9b
     skinnedMesh: 0
     sharedMesh: {fileID: 953398053}
     buidVersion:
@@ -9130,7 +9130,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 241f5276-7184-4a9e-ad0e-a49e82faa733
+  sourceMeshRendererGUID: aace6fd8-b563-48e3-9b5c-afa0a0f22e9b
   guid: 88ef7a7d-1ab6-4bbb-ac05-ab395ba0e2a3
   localOptions:
     RecalculateTangents: 0
@@ -9485,7 +9485,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d4faded9-086e-4bbb-a09e-5693a814f361
+    name: UM_OperatedMesh_20101a4d-f064-4dff-8260-b8ba93c2a714
     skinnedMesh: 0
     sharedMesh: {fileID: 1269171305}
     buidVersion:
@@ -9498,7 +9498,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d4faded9-086e-4bbb-a09e-5693a814f361
+  sourceMeshRendererGUID: 20101a4d-f064-4dff-8260-b8ba93c2a714
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -9617,7 +9617,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3baf8ab5-6c97-4b08-af50-2f92412e5836
+    name: UM_OperatedMesh_fb074204-cb61-4543-b259-6b1f54d4ab0a
     skinnedMesh: 0
     sharedMesh: {fileID: 772559187}
     buidVersion:
@@ -9630,7 +9630,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3baf8ab5-6c97-4b08-af50-2f92412e5836
+  sourceMeshRendererGUID: fb074204-cb61-4543-b259-6b1f54d4ab0a
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -9780,7 +9780,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0303a022-7735-4411-8194-4259bafdcf5c
+    name: UM_OperatedMesh_b566f7a2-ab8d-4ea2-9907-2a48fc8a8d25
     skinnedMesh: 0
     sharedMesh: {fileID: 1965948067}
     buidVersion:
@@ -9793,7 +9793,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0303a022-7735-4411-8194-4259bafdcf5c
+  sourceMeshRendererGUID: b566f7a2-ab8d-4ea2-9907-2a48fc8a8d25
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -9927,7 +9927,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7629c51e-0005-41a8-bcbc-4631a1532d3c
+    name: UM_OperatedMesh_75f48076-0e44-4d1b-b9fa-75add1e53f4d
     skinnedMesh: 0
     sharedMesh: {fileID: 1979651032}
     buidVersion:
@@ -9940,7 +9940,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7629c51e-0005-41a8-bcbc-4631a1532d3c
+  sourceMeshRendererGUID: 75f48076-0e44-4d1b-b9fa-75add1e53f4d
   guid: 4f106c2f-1ea2-41d8-b18d-3efe22b3c71c
   localOptions:
     RecalculateTangents: 0
@@ -10379,7 +10379,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9804dab0-2824-4209-9fff-1e6aeb76369e
+    name: UM_OperatedMesh_b33823c1-d23d-47d2-a8b2-c1574d9c9647
     skinnedMesh: 0
     sharedMesh: {fileID: 577497930}
     buidVersion:
@@ -10392,7 +10392,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9804dab0-2824-4209-9fff-1e6aeb76369e
+  sourceMeshRendererGUID: b33823c1-d23d-47d2-a8b2-c1574d9c9647
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -10812,7 +10812,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b33b2007-c954-4b56-a2fc-6b0d32e2359b
+    name: UM_OperatedMesh_de84246a-7f67-4b99-a916-2823b095ab68
     skinnedMesh: 0
     sharedMesh: {fileID: 2020074175}
     buidVersion:
@@ -10825,7 +10825,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b33b2007-c954-4b56-a2fc-6b0d32e2359b
+  sourceMeshRendererGUID: de84246a-7f67-4b99-a916-2823b095ab68
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -11658,7 +11658,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f935aace-5592-4564-83a1-f80cbcea95bd
+    name: UM_OperatedMesh_e98f9508-95ce-4176-8198-1c324cdb0c0f
     skinnedMesh: 0
     sharedMesh: {fileID: 1471987851}
     buidVersion:
@@ -11671,7 +11671,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f935aace-5592-4564-83a1-f80cbcea95bd
+  sourceMeshRendererGUID: e98f9508-95ce-4176-8198-1c324cdb0c0f
   guid: 489731a0-f8c8-47ec-82ca-e993858a5bca
   localOptions:
     RecalculateTangents: 0
@@ -12295,7 +12295,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f9f3537a-59ca-473f-92c7-bc7761f0db07
+    name: UM_OperatedMesh_56998727-7deb-4bf2-9dbe-a01f61a385ed
     skinnedMesh: 0
     sharedMesh: {fileID: 789997799}
     buidVersion:
@@ -12308,7 +12308,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f9f3537a-59ca-473f-92c7-bc7761f0db07
+  sourceMeshRendererGUID: 56998727-7deb-4bf2-9dbe-a01f61a385ed
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -12449,7 +12449,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_125decab-d6d5-4d9d-9d65-c488d63633b2
+    name: UM_OperatedMesh_01d12f95-de2f-4e27-b3ec-da58805c2435
     skinnedMesh: 0
     sharedMesh: {fileID: 1616119768}
     buidVersion:
@@ -12462,7 +12462,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 125decab-d6d5-4d9d-9d65-c488d63633b2
+  sourceMeshRendererGUID: 01d12f95-de2f-4e27-b3ec-da58805c2435
   guid: 251e2f35-9cc5-4797-ad80-9a3d38974924
   localOptions:
     RecalculateTangents: 0
@@ -12760,7 +12760,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2c142984-5d7e-44d0-b38c-5e4bfe8ba428
+    name: UM_OperatedMesh_b0a6d167-a9b7-4aaa-b6ac-bd5e810f77f5
     skinnedMesh: 0
     sharedMesh: {fileID: 1090233661}
     buidVersion:
@@ -12773,7 +12773,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2c142984-5d7e-44d0-b38c-5e4bfe8ba428
+  sourceMeshRendererGUID: b0a6d167-a9b7-4aaa-b6ac-bd5e810f77f5
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -13326,7 +13326,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d96bc5f1-899f-48f2-a829-efd8461791cf
+    name: UM_OperatedMesh_a718d6de-f817-48f0-a252-1719c03f2d1b
     skinnedMesh: 0
     sharedMesh: {fileID: 412691376}
     buidVersion:
@@ -13339,7 +13339,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d96bc5f1-899f-48f2-a829-efd8461791cf
+  sourceMeshRendererGUID: a718d6de-f817-48f0-a252-1719c03f2d1b
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -13673,7 +13673,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_980ecd14-8597-4e6e-b945-b414b923e6fa
+    name: UM_OperatedMesh_dc53833a-57ba-4de6-b95d-3f5ec73d26ab
     skinnedMesh: 0
     sharedMesh: {fileID: 256632003}
     buidVersion:
@@ -13686,7 +13686,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 980ecd14-8597-4e6e-b945-b414b923e6fa
+  sourceMeshRendererGUID: dc53833a-57ba-4de6-b95d-3f5ec73d26ab
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -14153,7 +14153,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dd046fa0-daf1-4ec1-a551-5fc4175f4b8e
+    name: UM_OperatedMesh_8862c0e3-0f64-431c-b858-014f396b5528
     skinnedMesh: 0
     sharedMesh: {fileID: 1826651896}
     buidVersion:
@@ -14166,7 +14166,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dd046fa0-daf1-4ec1-a551-5fc4175f4b8e
+  sourceMeshRendererGUID: 8862c0e3-0f64-431c-b858-014f396b5528
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -14316,7 +14316,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2ccd2fe6-50a4-41e1-b7bd-8afbbfe6f6a8
+    name: UM_OperatedMesh_41f789dd-2885-42e0-826e-ddc60e72b3d1
     skinnedMesh: 0
     sharedMesh: {fileID: 513506189}
     buidVersion:
@@ -14329,7 +14329,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2ccd2fe6-50a4-41e1-b7bd-8afbbfe6f6a8
+  sourceMeshRendererGUID: 41f789dd-2885-42e0-826e-ddc60e72b3d1
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -14668,7 +14668,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_46fc3bfc-a073-48f0-b354-2d7e1dfec336
+    name: UM_OperatedMesh_7785e986-43c7-4c3e-9384-938d741b276f
     skinnedMesh: 0
     sharedMesh: {fileID: 3988456}
     buidVersion:
@@ -14681,7 +14681,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 46fc3bfc-a073-48f0-b354-2d7e1dfec336
+  sourceMeshRendererGUID: 7785e986-43c7-4c3e-9384-938d741b276f
   guid: 88ef7a7d-1ab6-4bbb-ac05-ab395ba0e2a3
   localOptions:
     RecalculateTangents: 0
@@ -15015,7 +15015,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_16e9fc50-788d-4a06-9a82-e6caa587cf70
+    name: UM_OperatedMesh_750851a7-2345-4455-a5a1-2374cd03cdba
     skinnedMesh: 0
     sharedMesh: {fileID: 836660995}
     buidVersion:
@@ -15028,7 +15028,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 16e9fc50-788d-4a06-9a82-e6caa587cf70
+  sourceMeshRendererGUID: 750851a7-2345-4455-a5a1-2374cd03cdba
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -15177,7 +15177,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_da7ead1c-612e-47a1-a608-339cf7b52df4
+    name: UM_OperatedMesh_5a6a05ae-d036-4dea-acbd-8a305b4fa160
     skinnedMesh: 0
     sharedMesh: {fileID: 1206955584}
     buidVersion:
@@ -15190,7 +15190,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: da7ead1c-612e-47a1-a608-339cf7b52df4
+  sourceMeshRendererGUID: 5a6a05ae-d036-4dea-acbd-8a305b4fa160
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -15346,7 +15346,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e24d9204-21d1-4262-84f4-ff166ac93209
+    name: UM_OperatedMesh_4e5c44ac-c6da-4b82-bf5f-3d2b8b310171
     skinnedMesh: 0
     sharedMesh: {fileID: 1978903591}
     buidVersion:
@@ -15359,7 +15359,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e24d9204-21d1-4262-84f4-ff166ac93209
+  sourceMeshRendererGUID: 4e5c44ac-c6da-4b82-bf5f-3d2b8b310171
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -15577,7 +15577,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3fe26db4-888e-49bd-81fd-af5fed6c6d05
+    name: UM_OperatedMesh_b036b5d8-0fa3-4882-bdce-b7606372b462
     skinnedMesh: 0
     sharedMesh: {fileID: 677313996}
     buidVersion:
@@ -15590,7 +15590,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3fe26db4-888e-49bd-81fd-af5fed6c6d05
+  sourceMeshRendererGUID: b036b5d8-0fa3-4882-bdce-b7606372b462
   guid: ef45791b-ac4e-4c28-9263-4db4f18c986b
   localOptions:
     RecalculateTangents: 0
@@ -15995,7 +15995,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b09610d1-39e6-47ba-8055-b7c69ad55792
+    name: UM_OperatedMesh_df69129f-5ce9-4d61-8a0c-48bb36825379
     skinnedMesh: 0
     sharedMesh: {fileID: 230545458}
     buidVersion:
@@ -16008,7 +16008,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b09610d1-39e6-47ba-8055-b7c69ad55792
+  sourceMeshRendererGUID: df69129f-5ce9-4d61-8a0c-48bb36825379
   guid: a98f835e-d971-411f-a0b8-a1add2124e30
   localOptions:
     RecalculateTangents: 0
@@ -16321,7 +16321,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fffc6b4a-82f0-4210-9b7c-9cd884c67d50
+    name: UM_OperatedMesh_67a3029a-ddb6-4a20-be99-143b11f731de
     skinnedMesh: 0
     sharedMesh: {fileID: 216834648}
     buidVersion:
@@ -16334,7 +16334,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fffc6b4a-82f0-4210-9b7c-9cd884c67d50
+  sourceMeshRendererGUID: 67a3029a-ddb6-4a20-be99-143b11f731de
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -16491,7 +16491,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d6b389eb-f2df-4315-81ff-986b3c098e38
+    name: UM_OperatedMesh_5f283094-76a8-4e50-ab8f-2a0a61667fbe
     skinnedMesh: 0
     sharedMesh: {fileID: 1654366603}
     buidVersion:
@@ -16504,7 +16504,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d6b389eb-f2df-4315-81ff-986b3c098e38
+  sourceMeshRendererGUID: 5f283094-76a8-4e50-ab8f-2a0a61667fbe
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -16756,7 +16756,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_65e5bb1e-b0bf-4ecd-93ba-3ff67d9784db
+    name: UM_OperatedMesh_f8269ef2-1edf-460c-bbbf-a23a495b1070
     skinnedMesh: 0
     sharedMesh: {fileID: 1508646205}
     buidVersion:
@@ -16769,7 +16769,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 65e5bb1e-b0bf-4ecd-93ba-3ff67d9784db
+  sourceMeshRendererGUID: f8269ef2-1edf-460c-bbbf-a23a495b1070
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -16993,7 +16993,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4dee41c9-f401-4fbe-bff6-c89bb34c0a86
+    name: UM_OperatedMesh_fda7eea1-83eb-41d9-8ab6-5a7f00ad3d85
     skinnedMesh: 0
     sharedMesh: {fileID: 367563455}
     buidVersion:
@@ -17006,7 +17006,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4dee41c9-f401-4fbe-bff6-c89bb34c0a86
+  sourceMeshRendererGUID: fda7eea1-83eb-41d9-8ab6-5a7f00ad3d85
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -17612,7 +17612,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a20d8a1e-8815-41a0-b702-2f8f62fcc0ec
+    name: UM_OperatedMesh_04c60040-33a0-4437-ad6a-b1e186b4a807
     skinnedMesh: 0
     sharedMesh: {fileID: 1476189541}
     buidVersion:
@@ -17625,7 +17625,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a20d8a1e-8815-41a0-b702-2f8f62fcc0ec
+  sourceMeshRendererGUID: 04c60040-33a0-4437-ad6a-b1e186b4a807
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -18524,7 +18524,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e63f8177-eb90-4034-8882-ebdfe660b8fa
+    name: UM_OperatedMesh_fd70c7c4-714c-4c10-a315-630f7515eccd
     skinnedMesh: 0
     sharedMesh: {fileID: 1949255528}
     buidVersion:
@@ -18537,7 +18537,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e63f8177-eb90-4034-8882-ebdfe660b8fa
+  sourceMeshRendererGUID: fd70c7c4-714c-4c10-a315-630f7515eccd
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -18819,7 +18819,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_596e13be-2de5-4934-877e-8707d7f13589
+    name: UM_OperatedMesh_a3a885ae-16d6-4902-b404-e60dfc755edf
     skinnedMesh: 0
     sharedMesh: {fileID: 736010402}
     buidVersion:
@@ -18832,7 +18832,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 596e13be-2de5-4934-877e-8707d7f13589
+  sourceMeshRendererGUID: a3a885ae-16d6-4902-b404-e60dfc755edf
   guid: 7c0a79cf-00b8-4efa-87f3-ff5873a15659
   localOptions:
     RecalculateTangents: 0
@@ -19439,7 +19439,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dd8d4f10-fad2-4a7c-af94-975e9aa92f6f
+    name: UM_OperatedMesh_5897d9ea-0d76-49bc-82b6-abb6e0449ab7
     skinnedMesh: 0
     sharedMesh: {fileID: 1120813357}
     buidVersion:
@@ -19452,7 +19452,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dd8d4f10-fad2-4a7c-af94-975e9aa92f6f
+  sourceMeshRendererGUID: 5897d9ea-0d76-49bc-82b6-abb6e0449ab7
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -19827,7 +19827,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_8cd9e355-3239-492c-9715-a75ecf89c54b
+    name: UM_OperatedMesh_1b8ff35b-170e-4ad3-bae9-770894bfbf46
     skinnedMesh: 0
     sharedMesh: {fileID: 1241893701}
     buidVersion:
@@ -19840,7 +19840,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 8cd9e355-3239-492c-9715-a75ecf89c54b
+  sourceMeshRendererGUID: 1b8ff35b-170e-4ad3-bae9-770894bfbf46
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -20167,7 +20167,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c72e58c4-64d2-4eb5-b027-d5a66127ba7f
+    name: UM_OperatedMesh_129bc577-b58a-4060-8a7f-c1f855d5b23c
     skinnedMesh: 0
     sharedMesh: {fileID: 1036154093}
     buidVersion:
@@ -20180,7 +20180,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c72e58c4-64d2-4eb5-b027-d5a66127ba7f
+  sourceMeshRendererGUID: 129bc577-b58a-4060-8a7f-c1f855d5b23c
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -20323,7 +20323,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1041879c-b83c-4b47-9820-2bf120e164ff
+    name: UM_OperatedMesh_e08341a4-d267-4eae-be8f-d07be036e777
     skinnedMesh: 0
     sharedMesh: {fileID: 700030325}
     buidVersion:
@@ -20336,7 +20336,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1041879c-b83c-4b47-9820-2bf120e164ff
+  sourceMeshRendererGUID: e08341a4-d267-4eae-be8f-d07be036e777
   guid: 4f106c2f-1ea2-41d8-b18d-3efe22b3c71c
   localOptions:
     RecalculateTangents: 0
@@ -20684,7 +20684,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dc59c449-c7af-46e0-a22f-fc00559c3e6b
+    name: UM_OperatedMesh_96803882-5522-4197-a518-3e0870f03ec6
     skinnedMesh: 0
     sharedMesh: {fileID: 373191065}
     buidVersion:
@@ -20697,7 +20697,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dc59c449-c7af-46e0-a22f-fc00559c3e6b
+  sourceMeshRendererGUID: 96803882-5522-4197-a518-3e0870f03ec6
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -22429,7 +22429,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ca0d0448-983a-4b06-831f-eab8842d9cfd
+    name: UM_OperatedMesh_ac8c40cd-1f77-49d5-ac59-d026d31d7d41
     skinnedMesh: 0
     sharedMesh: {fileID: 2000394167}
     buidVersion:
@@ -22442,7 +22442,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ca0d0448-983a-4b06-831f-eab8842d9cfd
+  sourceMeshRendererGUID: ac8c40cd-1f77-49d5-ac59-d026d31d7d41
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -22635,7 +22635,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e7880360-57e2-4eda-bc71-37543b38e101
+    name: UM_OperatedMesh_f4f29406-db50-4152-9990-72f8c5ef9579
     skinnedMesh: 0
     sharedMesh: {fileID: 1215232676}
     buidVersion:
@@ -22648,7 +22648,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e7880360-57e2-4eda-bc71-37543b38e101
+  sourceMeshRendererGUID: f4f29406-db50-4152-9990-72f8c5ef9579
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -23159,7 +23159,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9209038b-efd5-44e2-a7dd-7b77d71a0d11
+    name: UM_OperatedMesh_45648346-0d50-4d08-aabb-632aa9f9eca3
     skinnedMesh: 0
     sharedMesh: {fileID: 2145969857}
     buidVersion:
@@ -23172,7 +23172,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9209038b-efd5-44e2-a7dd-7b77d71a0d11
+  sourceMeshRendererGUID: 45648346-0d50-4d08-aabb-632aa9f9eca3
   guid: b7ce6434-1b02-4ce3-b94c-5b6a09a1d790
   localOptions:
     RecalculateTangents: 0
@@ -23409,7 +23409,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f89d5c9d-a982-4ec2-90f8-cb6d13f86f6d
+    name: UM_OperatedMesh_621f9ef3-6a64-4a48-ae1b-175994c52c64
     skinnedMesh: 0
     sharedMesh: {fileID: 1998141376}
     buidVersion:
@@ -23422,7 +23422,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f89d5c9d-a982-4ec2-90f8-cb6d13f86f6d
+  sourceMeshRendererGUID: 621f9ef3-6a64-4a48-ae1b-175994c52c64
   guid: 87f63e55-d058-4bbf-8a1f-2c9771ff7b11
   localOptions:
     RecalculateTangents: 0
@@ -24440,7 +24440,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_0fe470ab-51b4-4be6-8796-37782ec53408
+    name: UM_OperatedMesh_069fdc69-c2a9-4c4f-81a3-5d09dde5c7d3
     skinnedMesh: 0
     sharedMesh: {fileID: 1176276610}
     buidVersion:
@@ -24453,7 +24453,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 0fe470ab-51b4-4be6-8796-37782ec53408
+  sourceMeshRendererGUID: 069fdc69-c2a9-4c4f-81a3-5d09dde5c7d3
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -25621,7 +25621,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dcb8b3a6-bfef-460d-8e81-366a59edb8d2
+    name: UM_OperatedMesh_962950c6-d939-4c08-b0a7-89cdc422b991
     skinnedMesh: 0
     sharedMesh: {fileID: 1111224227}
     buidVersion:
@@ -25634,7 +25634,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dcb8b3a6-bfef-460d-8e81-366a59edb8d2
+  sourceMeshRendererGUID: 962950c6-d939-4c08-b0a7-89cdc422b991
   guid: 4f106c2f-1ea2-41d8-b18d-3efe22b3c71c
   localOptions:
     RecalculateTangents: 0
@@ -26276,7 +26276,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_14b6f98c-1261-49c0-bf15-ac43cb960b18
+    name: UM_OperatedMesh_8e56abcb-4d8f-48bd-b1f6-70abac55fa66
     skinnedMesh: 0
     sharedMesh: {fileID: 1605033216}
     buidVersion:
@@ -26289,7 +26289,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 14b6f98c-1261-49c0-bf15-ac43cb960b18
+  sourceMeshRendererGUID: 8e56abcb-4d8f-48bd-b1f6-70abac55fa66
   guid: a7cfbede-cc83-401f-8e1e-2f2b50dece96
   localOptions:
     RecalculateTangents: 0
@@ -27244,7 +27244,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bb21667d-ad66-4ec7-af3c-93df525b4ab9
+    name: UM_OperatedMesh_535a5dad-7ce7-44e0-b6bf-b6a07dd91075
     skinnedMesh: 0
     sharedMesh: {fileID: 159979427}
     buidVersion:
@@ -27257,7 +27257,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bb21667d-ad66-4ec7-af3c-93df525b4ab9
+  sourceMeshRendererGUID: 535a5dad-7ce7-44e0-b6bf-b6a07dd91075
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -27992,7 +27992,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_de501318-dbf8-432c-9679-1868934c9532
+    name: UM_OperatedMesh_84672286-8b8e-47da-95c6-4e92343f076b
     skinnedMesh: 0
     sharedMesh: {fileID: 1264535830}
     buidVersion:
@@ -28005,7 +28005,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: de501318-dbf8-432c-9679-1868934c9532
+  sourceMeshRendererGUID: 84672286-8b8e-47da-95c6-4e92343f076b
   guid: 7c0a79cf-00b8-4efa-87f3-ff5873a15659
   localOptions:
     RecalculateTangents: 0
@@ -28410,7 +28410,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_51b7e016-a93a-4135-98ef-43932b7ef523
+    name: UM_OperatedMesh_0e4f3287-4611-4cae-b916-dd7c81d81005
     skinnedMesh: 0
     sharedMesh: {fileID: 1227860078}
     buidVersion:
@@ -28423,7 +28423,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 51b7e016-a93a-4135-98ef-43932b7ef523
+  sourceMeshRendererGUID: 0e4f3287-4611-4cae-b916-dd7c81d81005
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -29817,7 +29817,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bc825a3a-926d-46df-93e9-ca09ed0f1e62
+    name: UM_OperatedMesh_6ea89a9f-66b2-4de2-9b9d-af0c491e20c1
     skinnedMesh: 0
     sharedMesh: {fileID: 1215820664}
     buidVersion:
@@ -29830,7 +29830,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bc825a3a-926d-46df-93e9-ca09ed0f1e62
+  sourceMeshRendererGUID: 6ea89a9f-66b2-4de2-9b9d-af0c491e20c1
   guid: 85ec48d8-9946-477e-af8f-8e37ac8b676a
   localOptions:
     RecalculateTangents: 0
@@ -30434,7 +30434,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4b6917a7-7f51-4a33-8b19-2501f9437a85
+    name: UM_OperatedMesh_1fba0caf-97d9-4cca-86d7-e271c79f8b9e
     skinnedMesh: 0
     sharedMesh: {fileID: 1250737978}
     buidVersion:
@@ -30447,7 +30447,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4b6917a7-7f51-4a33-8b19-2501f9437a85
+  sourceMeshRendererGUID: 1fba0caf-97d9-4cca-86d7-e271c79f8b9e
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -30566,7 +30566,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_240a3e33-5ccf-4b1b-bb12-3a1f6c4fca8e
+    name: UM_OperatedMesh_e29644c8-7987-4f08-8519-9fed449df1a5
     skinnedMesh: 0
     sharedMesh: {fileID: 1060390307}
     buidVersion:
@@ -30579,7 +30579,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 240a3e33-5ccf-4b1b-bb12-3a1f6c4fca8e
+  sourceMeshRendererGUID: e29644c8-7987-4f08-8519-9fed449df1a5
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -30713,7 +30713,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1f46dd6b-f58a-4a64-bee3-05b9edaa0515
+    name: UM_OperatedMesh_7f8ffeda-fa51-4e1c-8edf-bf2f666423b4
     skinnedMesh: 0
     sharedMesh: {fileID: 1075892323}
     buidVersion:
@@ -30726,7 +30726,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1f46dd6b-f58a-4a64-bee3-05b9edaa0515
+  sourceMeshRendererGUID: 7f8ffeda-fa51-4e1c-8edf-bf2f666423b4
   guid: b6c59408-9b4d-4a27-8bb4-79b7633dc072
   localOptions:
     RecalculateTangents: 0
@@ -30876,7 +30876,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fa7140ed-ad18-43f9-832f-74818f695c99
+    name: UM_OperatedMesh_57472c53-3570-448a-b9ef-9fd967be55ff
     skinnedMesh: 0
     sharedMesh: {fileID: 1469655478}
     buidVersion:
@@ -30889,7 +30889,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fa7140ed-ad18-43f9-832f-74818f695c99
+  sourceMeshRendererGUID: 57472c53-3570-448a-b9ef-9fd967be55ff
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -31085,7 +31085,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ad040b17-96fe-4b45-be66-cd71ec7d30dd
+    name: UM_OperatedMesh_90886dd5-3f79-42a4-ae10-3fce3a384a82
     skinnedMesh: 0
     sharedMesh: {fileID: 1382007732}
     buidVersion:
@@ -31098,7 +31098,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ad040b17-96fe-4b45-be66-cd71ec7d30dd
+  sourceMeshRendererGUID: 90886dd5-3f79-42a4-ae10-3fce3a384a82
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -31238,7 +31238,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_56ddc7c8-42d2-48ce-89db-da9c789d4da1
+    name: UM_OperatedMesh_39ce8ba2-9245-44fa-824c-78704f042614
     skinnedMesh: 0
     sharedMesh: {fileID: 318746555}
     buidVersion:
@@ -31251,7 +31251,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 56ddc7c8-42d2-48ce-89db-da9c789d4da1
+  sourceMeshRendererGUID: 39ce8ba2-9245-44fa-824c-78704f042614
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -31579,7 +31579,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_acd6fb46-71a8-4fde-827e-3fde0a198ab2
+    name: UM_OperatedMesh_2706d44c-018d-4449-8861-7d5df37572a4
     skinnedMesh: 0
     sharedMesh: {fileID: 527664677}
     buidVersion:
@@ -31592,7 +31592,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: acd6fb46-71a8-4fde-827e-3fde0a198ab2
+  sourceMeshRendererGUID: 2706d44c-018d-4449-8861-7d5df37572a4
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -32159,7 +32159,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_81e3a41f-e8a0-4463-9ac7-161f8a14db00
+    name: UM_OperatedMesh_c5e0bc45-e950-456b-8965-495bb6bf18a7
     skinnedMesh: 0
     sharedMesh: {fileID: 1393234999}
     buidVersion:
@@ -32172,7 +32172,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 81e3a41f-e8a0-4463-9ac7-161f8a14db00
+  sourceMeshRendererGUID: c5e0bc45-e950-456b-8965-495bb6bf18a7
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -32736,7 +32736,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_924a5faa-438d-4586-8360-57f073e9f542
+    name: UM_OperatedMesh_46574dfc-4318-4984-beff-c6c9985d633b
     skinnedMesh: 0
     sharedMesh: {fileID: 2081584326}
     buidVersion:
@@ -32749,7 +32749,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 924a5faa-438d-4586-8360-57f073e9f542
+  sourceMeshRendererGUID: 46574dfc-4318-4984-beff-c6c9985d633b
   guid: a7cfbede-cc83-401f-8e1e-2f2b50dece96
   localOptions:
     RecalculateTangents: 0
@@ -33546,7 +33546,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_5ff5d750-cb17-4a1d-abc0-f37b83a9ee31
+    name: UM_OperatedMesh_c3531291-c4a1-4032-94af-fa97a3c5e828
     skinnedMesh: 0
     sharedMesh: {fileID: 1241552714}
     buidVersion:
@@ -33559,7 +33559,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 5ff5d750-cb17-4a1d-abc0-f37b83a9ee31
+  sourceMeshRendererGUID: c3531291-c4a1-4032-94af-fa97a3c5e828
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -33874,7 +33874,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9221b22f-befc-41e1-a94f-05cea98fa06f
+    name: UM_OperatedMesh_db0eba30-67e1-4fe4-aaeb-32ca53dbcff0
     skinnedMesh: 0
     sharedMesh: {fileID: 1736433169}
     buidVersion:
@@ -33887,7 +33887,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9221b22f-befc-41e1-a94f-05cea98fa06f
+  sourceMeshRendererGUID: db0eba30-67e1-4fe4-aaeb-32ca53dbcff0
   guid: ef45791b-ac4e-4c28-9263-4db4f18c986b
   localOptions:
     RecalculateTangents: 0
@@ -34721,7 +34721,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a7fa5917-e0f2-48e2-aa80-7ab23aef30da
+    name: UM_OperatedMesh_f48f37a4-8f01-4f2d-b735-eeebeea55ac0
     skinnedMesh: 0
     sharedMesh: {fileID: 1340720727}
     buidVersion:
@@ -34734,7 +34734,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a7fa5917-e0f2-48e2-aa80-7ab23aef30da
+  sourceMeshRendererGUID: f48f37a4-8f01-4f2d-b735-eeebeea55ac0
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -35037,7 +35037,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_2e98f3a3-215d-46f8-887f-66e118722d57
+    name: UM_OperatedMesh_b7eca014-0816-4b3a-bd4a-5d6a17111118
     skinnedMesh: 0
     sharedMesh: {fileID: 1768740480}
     buidVersion:
@@ -35050,7 +35050,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 2e98f3a3-215d-46f8-887f-66e118722d57
+  sourceMeshRendererGUID: b7eca014-0816-4b3a-bd4a-5d6a17111118
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -35247,7 +35247,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1573589d-7feb-4517-a7bc-07c0646d2b02
+    name: UM_OperatedMesh_317417d0-299d-427c-9936-e5b00bf8a2c4
     skinnedMesh: 0
     sharedMesh: {fileID: 961068625}
     buidVersion:
@@ -35260,7 +35260,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1573589d-7feb-4517-a7bc-07c0646d2b02
+  sourceMeshRendererGUID: 317417d0-299d-427c-9936-e5b00bf8a2c4
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -35442,7 +35442,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_59c09e51-1cfa-424a-a4e5-93c651561331
+    name: UM_OperatedMesh_8f5186a8-d57e-49e2-bfe6-5053944c0535
     skinnedMesh: 0
     sharedMesh: {fileID: 1987866130}
     buidVersion:
@@ -35455,7 +35455,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 59c09e51-1cfa-424a-a4e5-93c651561331
+  sourceMeshRendererGUID: 8f5186a8-d57e-49e2-bfe6-5053944c0535
   guid: 30e568e2-0972-4f8f-9d39-41ca7ef9d78b
   localOptions:
     RecalculateTangents: 0
@@ -35603,7 +35603,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_90c04a33-0079-4db9-9966-51b0f44e6f15
+    name: UM_OperatedMesh_d93afa49-b73e-4b72-9d79-b7c79e0942b9
     skinnedMesh: 0
     sharedMesh: {fileID: 1651343691}
     buidVersion:
@@ -35616,7 +35616,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 90c04a33-0079-4db9-9966-51b0f44e6f15
+  sourceMeshRendererGUID: d93afa49-b73e-4b72-9d79-b7c79e0942b9
   guid: 5b112fd9-33ef-4314-bad3-283ebac294ee
   localOptions:
     RecalculateTangents: 0
@@ -35659,6 +35659,87 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0732652, y: 1.9495491, z: 1.0732652}
   m_Center: {x: 0.00000002980232, y: 0.9747743, z: 0}
+--- !u!1001 &1819852880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 81589747270942780, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 504209224177778026, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.111
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.918
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 11.759264
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230512166641555784, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4920339862412884945, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6408466974810839347, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_Name
+      value: LeftSide
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747090628197562442, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.126
+      objectReference: {fileID: 0}
+    - target: {fileID: 8747090628197562442, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970385582749542585, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.472
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2144f3c5c8cf1fb41aa4af0795af2c94, type: 3}
 --- !u!43 &1826651896
 Mesh:
   m_ObjectHideFlags: 0
@@ -36042,7 +36123,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_da2d2f51-61a5-4abc-a428-41df6155cdad
+    name: UM_OperatedMesh_d09b0030-d45a-4537-8cc1-839302d488b3
     skinnedMesh: 0
     sharedMesh: {fileID: 1010811816}
     buidVersion:
@@ -36055,7 +36136,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: da2d2f51-61a5-4abc-a428-41df6155cdad
+  sourceMeshRendererGUID: d09b0030-d45a-4537-8cc1-839302d488b3
   guid: 5f507a96-250b-4893-966e-262a7ba57748
   localOptions:
     RecalculateTangents: 0
@@ -36644,7 +36725,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3463faac-2b3b-451e-9c10-326bb67f90fd
+    name: UM_OperatedMesh_d2162c0c-659a-4d5c-8544-3a74aed2ae03
     skinnedMesh: 0
     sharedMesh: {fileID: 1185807900}
     buidVersion:
@@ -36657,7 +36738,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3463faac-2b3b-451e-9c10-326bb67f90fd
+  sourceMeshRendererGUID: d2162c0c-659a-4d5c-8544-3a74aed2ae03
   guid: 62902ab3-9fc5-4da7-8bed-35c9b27af210
   localOptions:
     RecalculateTangents: 0
@@ -37174,7 +37255,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b9299ebd-cb0d-4009-9427-441b5059b5c1
+    name: UM_OperatedMesh_8c23bb8b-2a5d-4b70-841e-0d173722e5e7
     skinnedMesh: 0
     sharedMesh: {fileID: 1358529406}
     buidVersion:
@@ -37187,7 +37268,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b9299ebd-cb0d-4009-9427-441b5059b5c1
+  sourceMeshRendererGUID: 8c23bb8b-2a5d-4b70-841e-0d173722e5e7
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -37328,7 +37409,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_aabe76e6-b6bc-46af-9af8-ca6d3581da24
+    name: UM_OperatedMesh_e2ebe8d3-dd1b-4198-8944-0c077b086374
     skinnedMesh: 0
     sharedMesh: {fileID: 36282266}
     buidVersion:
@@ -37341,7 +37422,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: aabe76e6-b6bc-46af-9af8-ca6d3581da24
+  sourceMeshRendererGUID: e2ebe8d3-dd1b-4198-8944-0c077b086374
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -37695,7 +37776,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ff966060-fe3b-4358-b650-95b67224f97b
+    name: UM_OperatedMesh_e4067379-ec09-4f89-8edc-07852f1bf66c
     skinnedMesh: 0
     sharedMesh: {fileID: 164976502}
     buidVersion:
@@ -37708,7 +37789,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ff966060-fe3b-4358-b650-95b67224f97b
+  sourceMeshRendererGUID: e4067379-ec09-4f89-8edc-07852f1bf66c
   guid: a11c664e-7f85-4d7d-844e-6a384f7c6894
   localOptions:
     RecalculateTangents: 0
@@ -38154,7 +38235,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1fdd16d2-33ac-4193-b2f5-37ee90d444f8
+    name: UM_OperatedMesh_662ff981-3dc2-47a7-aeff-57ecd66b73b9
     skinnedMesh: 0
     sharedMesh: {fileID: 27616365}
     buidVersion:
@@ -38167,7 +38248,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1fdd16d2-33ac-4193-b2f5-37ee90d444f8
+  sourceMeshRendererGUID: 662ff981-3dc2-47a7-aeff-57ecd66b73b9
   guid: 93f74548-7e20-4fcb-a857-f6c05443e6e3
   localOptions:
     RecalculateTangents: 0
@@ -39492,7 +39573,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_008bd084-c91d-4b41-b352-4a1b9fe74c86
+    name: UM_OperatedMesh_6716d857-70ad-44f6-a0ff-ee60e05c8a2d
     skinnedMesh: 0
     sharedMesh: {fileID: 1866488731}
     buidVersion:
@@ -39505,7 +39586,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 008bd084-c91d-4b41-b352-4a1b9fe74c86
+  sourceMeshRendererGUID: 6716d857-70ad-44f6-a0ff-ee60e05c8a2d
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -39855,7 +39936,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c4e7f8ce-cecc-454e-83ad-de030576284b
+    name: UM_OperatedMesh_e867cfb0-da13-44ab-afdf-b57aa9b1638b
     skinnedMesh: 0
     sharedMesh: {fileID: 1165198704}
     buidVersion:
@@ -39868,7 +39949,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c4e7f8ce-cecc-454e-83ad-de030576284b
+  sourceMeshRendererGUID: e867cfb0-da13-44ab-afdf-b57aa9b1638b
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -40024,7 +40105,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d642874f-3498-4040-8ae3-dc087ce3e49b
+    name: UM_OperatedMesh_ff1d483e-85e6-455a-92ef-b8400993e9d2
     skinnedMesh: 0
     sharedMesh: {fileID: 19702991}
     buidVersion:
@@ -40037,7 +40118,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d642874f-3498-4040-8ae3-dc087ce3e49b
+  sourceMeshRendererGUID: ff1d483e-85e6-455a-92ef-b8400993e9d2
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -40339,7 +40420,7 @@ MonoBehaviour:
   - Assets/Materials/Light Grey.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_45084f9e-84e5-4421-b3dc-46d25cc669e2
+    name: UM_OperatedMesh_fa0da644-61b4-4a7c-92de-f67ea47fdc28
     skinnedMesh: 0
     sharedMesh: {fileID: 1460420021}
     buidVersion:
@@ -40352,7 +40433,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 45084f9e-84e5-4421-b3dc-46d25cc669e2
+  sourceMeshRendererGUID: fa0da644-61b4-4a7c-92de-f67ea47fdc28
   guid: 313fc8d3-58f7-4ae6-abd7-7411b51a80c3
   localOptions:
     RecalculateTangents: 0
@@ -40487,7 +40568,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e5db4eb1-ba63-411d-967c-bccd62ed3739
+    name: UM_OperatedMesh_16027b56-d376-437d-b12e-27d0108c1ed1
     skinnedMesh: 0
     sharedMesh: {fileID: 965832051}
     buidVersion:
@@ -40500,7 +40581,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e5db4eb1-ba63-411d-967c-bccd62ed3739
+  sourceMeshRendererGUID: 16027b56-d376-437d-b12e-27d0108c1ed1
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -40641,7 +40722,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_1743bb83-48a4-4bbe-ab39-65b87b186254
+    name: UM_OperatedMesh_74c26d80-5913-4d4d-9453-e1631b5d94b0
     skinnedMesh: 0
     sharedMesh: {fileID: 851316504}
     buidVersion:
@@ -40654,7 +40735,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 1743bb83-48a4-4bbe-ab39-65b87b186254
+  sourceMeshRendererGUID: 74c26d80-5913-4d4d-9453-e1631b5d94b0
   guid: a98f835e-d971-411f-a0b8-a1add2124e30
   localOptions:
     RecalculateTangents: 0
@@ -41005,7 +41086,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ce6135b9-6736-4a35-8c10-89b8014aecd8
+    name: UM_OperatedMesh_2dfb91de-c5cc-429d-a191-e85c37221a38
     skinnedMesh: 0
     sharedMesh: {fileID: 302263749}
     buidVersion:
@@ -41018,7 +41099,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ce6135b9-6736-4a35-8c10-89b8014aecd8
+  sourceMeshRendererGUID: 2dfb91de-c5cc-429d-a191-e85c37221a38
   guid: e5a99ba1-d1c5-43d2-86a2-b3d33f27edb3
   localOptions:
     RecalculateTangents: 0
@@ -41153,7 +41234,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_626b6476-5c69-4a01-bd6b-6129c76d980d
+    name: UM_OperatedMesh_7071bb3f-0395-49cd-9af1-1d4d3e860b13
     skinnedMesh: 0
     sharedMesh: {fileID: 1248770913}
     buidVersion:
@@ -41166,7 +41247,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 626b6476-5c69-4a01-bd6b-6129c76d980d
+  sourceMeshRendererGUID: 7071bb3f-0395-49cd-9af1-1d4d3e860b13
   guid: b98f7743-57c0-499c-ae3a-c294e0401251
   localOptions:
     RecalculateTangents: 0
@@ -41563,7 +41644,7 @@ MonoBehaviour:
   - Assets/Sprites/Materials/roomTexture.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4fa2325d-d10a-412b-be1d-bf923bb4e01e
+    name: UM_OperatedMesh_b764f5d3-8f42-4078-91e4-5d45b1152f24
     skinnedMesh: 0
     sharedMesh: {fileID: 922138342}
     buidVersion:
@@ -41576,7 +41657,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4fa2325d-d10a-412b-be1d-bf923bb4e01e
+  sourceMeshRendererGUID: b764f5d3-8f42-4078-91e4-5d45b1152f24
   guid: fadbedf6-4ca1-4b27-9e75-f4fc765a21ed
   localOptions:
     RecalculateTangents: 0
@@ -41746,7 +41827,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9293942d-6a17-4f34-a8d3-70263c098788
+    name: UM_OperatedMesh_017c0057-0ae1-4a9b-b251-7ecfb316d56d
     skinnedMesh: 0
     sharedMesh: {fileID: 1151985825}
     buidVersion:
@@ -41759,7 +41840,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9293942d-6a17-4f34-a8d3-70263c098788
+  sourceMeshRendererGUID: 017c0057-0ae1-4a9b-b251-7ecfb316d56d
   guid: 53e79d21-d420-4685-867f-032290e7f545
   localOptions:
     RecalculateTangents: 0
@@ -42094,3 +42175,4 @@ SceneRoots:
   - {fileID: 1310415447}
   - {fileID: 196630132}
   - {fileID: 615380650}
+  - {fileID: 1819852880}
