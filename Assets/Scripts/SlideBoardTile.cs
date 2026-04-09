@@ -26,9 +26,6 @@ public class SlideBoardTile : MonoBehaviour {
     if (label != null) label.text = haspiece ? num.ToString() : "";
   }
   public void Grab() {
-    if (pieceNum != 0) {
-      SoundManager.Play(SoundType.SLIDE);
-      board.TrySlide(tileIndex);
-    }
+    if (pieceNum != 0) board.TrySlide(tileIndex);
   }
 }

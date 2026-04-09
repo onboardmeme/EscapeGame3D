@@ -5,8 +5,6 @@ public enum SoundType {
   TUMBLE,
   PICKUP,
   WALKING,
-  LEVER,
-  SLIDE,
 }
 
 public class SoundCollection {
@@ -55,11 +53,9 @@ public class SoundManager : MonoBehaviour {
     Instance = this;
     audioSrc = GetComponent<AudioSource>();
     sounds = new() {
-      {SoundType.PICKUP,  new SoundCollection("safe-door") },
-      {SoundType.TUMBLE,  new SoundCollection("lock-turn") },
+      {SoundType.PICKUP, new SoundCollection("safe-door") },
+      {SoundType.TUMBLE, new SoundCollection("lock-turn") },
       {SoundType.WALKING, new SoundCollection("walking") },
-      {SoundType.LEVER,   new SoundCollection("lever") },
-      {SoundType.SLIDE,   new SoundCollection("slide") },
     };
   }
 

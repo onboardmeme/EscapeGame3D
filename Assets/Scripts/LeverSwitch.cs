@@ -38,7 +38,6 @@ public class LeverSwitch : MonoBehaviour {
 
   public void SetLit(bool lit) {
     IsLit = lit;
-    SoundManager.Play(SoundType.LEVER);
 
     if (leverRenderer != null)
       leverRenderer.material.SetColor("_BaseColor", lit ? colorOn : colorOff);
