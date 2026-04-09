@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI TimerText;
+    [SerializeField] TextMeshProUGUI TimerText;       // HUD label (UI)
+    [SerializeField] TextMeshPro RoomTimerText;       // World-space label in the room
     [SerializeField] float remainingTime;
 
     void Update(){
@@ -13,10 +14,14 @@ public class Timer : MonoBehaviour
 
             int minutes = Mathf.FloorToInt(remainingTime / 60);
             int seconds = Mathf.FloorToInt(remainingTime % 60);
-            TimerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            string timeString = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+            TimerText.text = timeString;
+            if (RoomTimerText != null) RoomTimerText.text = timeString;
         } else {
             remainingTime = 0;
-            TimerText.text = string.Format("You Lose");
+            TimerText.text = "You Lose";
+            if (RoomTimerText != null) RoomTimerText.text = "You Lose";
             SceneManager.LoadScene("GameOver");
         }
     }
