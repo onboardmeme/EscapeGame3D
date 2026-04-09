@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/finalRoomModels 1.unity
+    path: Assets/Scenes/Main.unity
     guid: c7d32470958b99d4ba295b0a2def76c8
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
